@@ -1,0 +1,6860 @@
+fileFormatVersion: 2
+guid: 0f7357c2c99558c4b8dd4bb9f20a5afc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drill instructor idle 1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1814
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8767f7910160fba40a67694378d50a7e
+      internalID: 1660843951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor idle 2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1814
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e17ee4ca062f447b042ee9c2617023
+      internalID: 902058750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor idle 3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1814
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca38a749a8516d4a8031413c58df5de
+      internalID: 1080622940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor idle 4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1814
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e5ad384a74fe438974c7f0ad96028
+      internalID: -2023325415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 1
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1812
+        width: 39
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f97caa42b2084245b119ead3fb97d62
+      internalID: -1550136922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1812
+        width: 39
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464f8e5e5710a7742b16587754eb139e
+      internalID: -849810282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1812
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512da07df444fa74f88523901db038b8
+      internalID: -1803870620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 4
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1812
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a8bdc6148acc44ea9d07f1dd1d68f3
+      internalID: 1047334550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1812
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae83334f6d0ea84fa5128c13991f6c7
+      internalID: -1890192034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor idle 5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1753
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9bf195ba68a6a4f8b32964bc496003
+      internalID: 1655634990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1753
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865767c26b669f346ab149dda807ad43
+      internalID: -1285353014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1753
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a056df9863dfe24999087e26a907248
+      internalID: -162322739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1753
+        width: 59
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0319eb2e58c24c94597ccca19c380cbd
+      internalID: 1483311069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1753
+        width: 75
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5f0a93fcc29934e9f0ac526e908a93
+      internalID: 2061935312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1753
+        width: 76
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52cffbad03c2204aabad9919ac54c1a
+      internalID: -2102763563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle 6
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1748
+        width: 54
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d30097bcfd7494f996f65e433c047a
+      internalID: -2091015693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1699
+        width: 76
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b3103ddac75542bac8c96c9282d34
+      internalID: -2077650498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee 7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1699
+        width: 75
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ab25a8ebb7be944ba2a2c331524a84
+      internalID: -1041971324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1697
+        width: 74
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375302e7d1e49e14995752a3ee53f8d9
+      internalID: 1463367409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 1
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1674
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd797ff054d5044a052d3c9fee4f48
+      internalID: -105647197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1677
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0274c1e564722f84b80706b581f44bdb
+      internalID: -460468359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 3
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1676
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea9b6e0dfed4543b679423f077b75e
+      internalID: -1563161892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 4
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1676
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9ced0ebf29fb42883552248142445
+      internalID: 136892223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 5
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1675
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2724aa265d922e4980a40c245c8a493
+      internalID: -2047596767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee end 1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1645
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3198183358432444afb8a7b864b999d
+      internalID: 930666909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor melee end 2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1645
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de20f95215be6584383590b808e94278
+      internalID: -1528233153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 6
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1609
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d100801906e2749ae89d0cb830f3c4
+      internalID: -1716641777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 7
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1608
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f301a7adb57e4585c7d49ba1e9856
+      internalID: 1862494242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1607
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f9aa56c14381c4b87ad7fcf3649c29
+      internalID: 2044368649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 9
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1607
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d311b4ddf5e6e544d9e8fdc22fac406c
+      internalID: -1975406843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee run 10
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1607
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d339a0b83e6e6c45adaf806eb9c93a3
+      internalID: 797205535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor shout 1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1576
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e95d2ff863e15640be9384617807d24
+      internalID: 2123422768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor shout 2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1576
+        width: 43
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6849acb6ba80eaa408572176cdb387fa
+      internalID: 1292669681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor shout 3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1576
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc643d9f773cf041a9bebb4f963c281
+      internalID: -1905490001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 1
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1536
+        width: 51
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37d9d74dcd16ad4a9681fd1503338f2
+      internalID: -1300306700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 2
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1536
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f0de6581c82e146bd251dc955d9a42
+      internalID: 170472615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1536
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8682740c34fb4486e2e93b5267927
+      internalID: 1460147657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 4
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1536
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a322731fdefe43a70e45405c82dcc
+      internalID: -1202337337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 5
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1536
+        width: 53
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f892f6f4e17ae2b40803d41e8c6fc2ad
+      internalID: 1445164461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle set 2 frame 6
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1536
+        width: 56
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dc857547e0db749be54aba07eac57d
+      internalID: -2000844327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor point 1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1523
+        width: 56
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f81fa800723da4eb1b3540f1f2f138
+      internalID: 1256348451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor point 2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1524
+        width: 53
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25cace55f9bb7438b4609c0d811445
+      internalID: -1206731552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor point 3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1523
+        width: 51
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915eeb1e6240e1b4f9b1cf20bba6aa21
+      internalID: 587070723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor rage 1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1470
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa26d9a1d5de06d4fab69fd723ee1e59
+      internalID: 583974686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor rage 2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1470
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c0ab7a1f7b614a8c92ed403951901
+      internalID: -1112421540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor rage 3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1470
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7ada31d0456c245ad5d1d21ebb4cf9
+      internalID: -1075126215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor rage 4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1470
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1948146417506714391f8c9e64626516
+      internalID: -1662697307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drill instructor rage 5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1470
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0c2d6e9b17f1b4cbbbf68966bc932a
+      internalID: 482440585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump 1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1461
+        width: 50
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d228e59e41327b4da49963c51668085
+      internalID: 2027988297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump 2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1463
+        width: 50
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9702b78ad0a1e41872338fb6abbd08
+      internalID: -1796195826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump 3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1465
+        width: 51
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196d130347131e4cae82b7ff80a2048
+      internalID: 2098241330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump 4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1467
+        width: 51
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1caf083bf3f1844c993f934108db491
+      internalID: 1856857204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_61
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1426
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aec2ab58e0ac245bd8a80bdc874f09
+      internalID: 1149015281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1436
+        width: 9
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248accf3a26469841ab665341a2f46f3
+      internalID: 1686508284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1426
+        width: 13
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca76234ac23c880448ceaee08ced2055
+      internalID: -1694479604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1439
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392a0eaa0472184d84d225616685569
+      internalID: -555887332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_65
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1437
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a285fcc27c0494ab0260e70095b2d5
+      internalID: 1749918553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_66
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1429
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bf5b267fd01864dab4ed36cacad6c5
+      internalID: -1681476730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_67
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1433
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b5ae895aa2f5a42bf1660ac73e91d4
+      internalID: -904095798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_68
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1421
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f0542b0ca05424bab8cff40810f573
+      internalID: -1632469105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_69
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1412
+        width: 93
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a28d8395885a54ba11f8402913c420
+      internalID: 2115067131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee landing 1
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1413
+        width: 54
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85f4bfbbaf12184bb51af806286a024
+      internalID: 1808059275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1413
+        width: 54
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d5e0d8557dc0242ab207fcdc76f9ab
+      internalID: -1783999848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee jump 13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1413
+        width: 54
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e954dc85de30e14fa1320d9566073cb
+      internalID: 1668144804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_73
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1414
+        width: 27
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0e2b7e8ced6c43885f8c84d30131d
+      internalID: -1385603817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_74
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1413
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c5471467835774eafbefcb5efe76c4
+      internalID: 704225193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_75
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1422
+        width: 19
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e88d6577da6de14aa707cd775956b0c
+      internalID: 1579337875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_76
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1427
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82a684f0abf0634b8e1ed22463ad26c
+      internalID: -1099089406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_77
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1422
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ac31687ee7b34c97ea6a5c01f9d93
+      internalID: -928166535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_78
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1421
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfad596a257155f4ba1451d51bdb39b8
+      internalID: -2114748187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1421
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455721398a2fc3b4ba53d15a7a37592b
+      internalID: -711919028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_80
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1421
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c31e035a48f48498421eb7c15d1a97
+      internalID: -311557526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_81
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1412
+        width: 17
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d51b1cb8cee7f3478088dcce37949dc
+      internalID: 2033260512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_82
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1414
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb7e6e96f973747b1f39734290a6c1
+      internalID: -1000450460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_83
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1416
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c090bcab8e49b454891cf8ac297c4599
+      internalID: -509908770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_84
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1416
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa7cebca8489a409dc17f5495f26d7
+      internalID: 408151659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_85
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1416
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c2b846c7c871c4b9a3ec9afafd4f4f
+      internalID: -2132084149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_86
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1393
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7142f2527b003b459d42df737dc5ada
+      internalID: 1190894539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_87
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1392
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e6c05d637b354aa6561da3f564182
+      internalID: -700313801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1391
+        width: 9
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1183c173d684fc444aa9e3a95bc2c8f4
+      internalID: 910891633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1391
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365e74a6bb2abf45bc41ce06cd233a3
+      internalID: 831974783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1390
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004dda80618997d4c879d4f392ed9e94
+      internalID: 1417689411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_91
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1390
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33783bee2f5d472448c58e57274aafee
+      internalID: -203938413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee readyed 1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1355
+        width: 54
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed5d8cbb4a67834e91c3d37d5c7a8c8
+      internalID: -642014298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee readyed 2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1355
+        width: 44
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a52927cb988e94c8e8203d693ac2f5
+      internalID: -1018656163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1298
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc9c94734a2e6d469e986d3ae58a00e
+      internalID: -316246269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1298
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2cf028487278d4497e80ac7e888ab6
+      internalID: -1159916502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1298
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96398534440e88b40b05fbebf2eee534
+      internalID: 597890086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1298
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90abf4ad8e7880d4c8d4021fabeccf74
+      internalID: 442819787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1298
+        width: 36
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f810fe6a1e7448a148d187c732968
+      internalID: 290935317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1298
+        width: 79
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26fbc9bf39c01d4baa6fd0dbe63d239
+      internalID: 966295927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr readyed 7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1297
+        width: 82
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fbf0d81dba07a41a0fe84cd3b5680e
+      internalID: 2021738572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1298
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4ecc2b9ee330447a244e2c76e85f25
+      internalID: 239238308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 2
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1297
+        width: 50
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d74b7b5e6bc0c47bd3ae8506936634
+      internalID: -1129350197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 3
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1298
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829a6427f42d1f4b91e0c697014cd5b
+      internalID: -1441148307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 4
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1299
+        width: 53
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520cfb1a18045fa43a3899052e7e43e4
+      internalID: -1663077755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1298
+        width: 63
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eea8253c6a5ed041b14fb62c389e6c8
+      internalID: 425847290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1240
+        width: 81
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e42244297d27347b70f16dd9213e37
+      internalID: 527986187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1240
+        width: 80
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136d53c5b10c7d48a3305506c9f36a2
+      internalID: 1940578097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1240
+        width: 80
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1024bd6a77c964548be7a8379f69db02
+      internalID: -1794999941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1240
+        width: 81
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6c6d2b9b8f4734887279b35a096a79
+      internalID: 792678405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1240
+        width: 80
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7c4304167d8f747a1813899044c5ff
+      internalID: -89501902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1229
+        width: 59
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d6d0ffca130594592a0ee0e73fc70d
+      internalID: -335528791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 7
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1229
+        width: 68
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caba45972c0f9349a6d2f5a2ebd6700
+      internalID: 654142339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 8
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1229
+        width: 53
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cf64be75cfada44b54680ba34e0eed
+      internalID: -236534454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 9
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1229
+        width: 50
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc12d61465cd9864b95ae9f26d14770d
+      internalID: -1709323120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 10
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1228
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c622f6946640e458fd7101fe34926b
+      internalID: -2092408059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 1 frame 6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1184
+        width: 81
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d260e8442fc6b443a97972becb40b75
+      internalID: -862395200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1178
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92478483ffa67ef4eace6a545bd2c398
+      internalID: 755843305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 12
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1178
+        width: 50
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abce2bee064d574ea661d555dcf81c2
+      internalID: 291834634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee idle attack 13
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1178
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44930591534b2a24aa8551ceff44ca72
+      internalID: 797856068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1119
+        width: 83
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ecf9baf6e0617488a83bc4d84b8621
+      internalID: 2074911122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1122
+        width: 83
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9a1a22303f2754984595b39b6525fb
+      internalID: -1535467812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1119
+        width: 83
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8708f1a278ec743458074266579c7fc7
+      internalID: -249131669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1119
+        width: 82
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c52136b8da7b54dbdec1836667dda4
+      internalID: 690685046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 5
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1119
+        width: 81
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07fa7a3b7774e64d81f3647c5ed1607
+      internalID: 1843693449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack 1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1122
+        width: 54
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26012d61286063488989e9db0e112c4
+      internalID: 1624146998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack 2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1122
+        width: 52
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e92a97709dcf5408bf4e5b956052bf
+      internalID: -1342510908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack 3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1121
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e65a900edbafc4e9d90bf7849adbee
+      internalID: 1095054709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack 4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1122
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8238a7b696fc45b0214a71d29237c
+      internalID: 104718173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack reuturn 1
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1125
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27d5679127c985458c174fb8b6c707e
+      internalID: 878307819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack reuturn 2
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1125
+        width: 55
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8785751c9447334f90132be40fb15fd
+      internalID: -1496547240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack reuturn 3
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1125
+        width: 55
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9df3f78dfe50c846aae6709727d851b
+      internalID: -729807785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee attack reuturn 4
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1124
+        width: 55
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4fc94d2f17ba9489e7870d913d0e9e
+      internalID: 943526385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1064
+        width: 81
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de417394e355cc498cdd411f664b628
+      internalID: -1209079379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1066
+        width: 81
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ce5f2cf4b0d84ba9f4d6ec321f696
+      internalID: -2147151290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1064
+        width: 81
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87a2e6aaaf42b64c86603254df8de61
+      internalID: -416336175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1064
+        width: 82
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8a7205e9696042b9a989fe35d1ba1
+      internalID: -1300495886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr run 10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1064
+        width: 83
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0a9e583d8b06f44b1fa62fa4c1e083
+      internalID: -244071667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 1
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1025
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d07a772ef63c60468a396caa5ff2f36
+      internalID: 1995725758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1025
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd285028b19b7a94a8c3ed2b2c2683b9
+      internalID: -1198915868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 3
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1028
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c412a4b7695004f8f0391434ebe0ba
+      internalID: -1345210361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 4
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1029
+        width: 36
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dd4b3b196334240bbcc49f34da6660
+      internalID: -213361994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 5
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1030
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eca9da36d3aa14a9733f1420fd4d5d
+      internalID: -556916250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 995
+        width: 83
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ffd0ac9b6a33d4b9da19614ecc4f23
+      internalID: -2021605789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 996
+        width: 82
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a74073afc94dbf4cb9a0998aa2886db
+      internalID: -427351049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 996
+        width: 82
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d2c70d2f9a524439755e7cdb8b9f51
+      internalID: 716760131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 996
+        width: 82
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4f97ae1ab5d7048b407845e73af786
+      internalID: -279069406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 996
+        width: 82
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f1f6f8501a49f48902f3000492caaa
+      internalID: 103627435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr idle set 2 frame 6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 996
+        width: 83
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ff46a93f1796c43a4f03b13c1b07c9
+      internalID: 844234698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death 6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1029
+        width: 39
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d12417d7db5c4841887f3be6a00021f
+      internalID: 601987721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting 1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 931
+        width: 72
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97a140f03e0d714fbaf247f1a22d570
+      internalID: 1479614029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting 2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 931
+        width: 58
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f378724fca88ee74782b0c7b536498bd
+      internalID: 585651633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 1
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 958
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67456d1bcf4d65943b776f680ff49091
+      internalID: -1172958235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 958
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81005b7b9a10cce4ba688cf1339eac9b
+      internalID: -317085235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 958
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caea230e1b9caf4f879c4e6547c9020
+      internalID: 539825080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 4
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 958
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e82a5fdea50f04d9b1b899345b21e0
+      internalID: 1194709366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 958
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e52dd067fdbd704fa4742a93ff106d4
+      internalID: -948897199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 958
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fdd2e6dac83c44aac8eb14688a160f
+      internalID: -461086760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr jump 1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 861
+        width: 81
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4540a4b6808d05d459169157f141f9e6
+      internalID: -1739995350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr jump 2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 863
+        width: 82
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ce6609e8fe1d42b9a58cf84f21e87
+      internalID: 1254321177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr jump 3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 865
+        width: 82
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb663f8a2ce9304a857478b17b39adc
+      internalID: 60092645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr jump 4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 867
+        width: 80
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a71601aea3a7b49be0747686aef85c
+      internalID: 1948104077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 7
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 896
+        width: 43
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9e410316c626644b65a136103f5d51
+      internalID: 2103491777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 8
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 896
+        width: 42
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f943bfaea36e1184b96c3fb616f4ccbc
+      internalID: -726454441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 897
+        width: 42
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8d5eae601444549b11f70cd4419443
+      internalID: 1421026798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 10
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 897
+        width: 48
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1993c9b5024da6942a12731e8a44de13
+      internalID: 643415447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 11
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 897
+        width: 48
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd2996055b01d047b7b93ba9d8e3b87
+      internalID: -150310239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr landing 1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 804
+        width: 81
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6641270c885af418f97912313c9217
+      internalID: -46168892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr landing 2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 804
+        width: 81
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee6cdaa74ffcfd40b6dbf212ae8b7b7
+      internalID: -1389994177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr landing 3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 804
+        width: 81
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1019c8b26394bd84ba651ebf65457268
+      internalID: -1717272558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 12
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 840
+        width: 41
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edc28aea5f02ae4cab56fc0790f224c
+      internalID: -1299844128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 833
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6ce360a612bec418e0f93ddbf80777
+      internalID: -1217251388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 833
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27204f88bf30574bb049b8dfba57b5d
+      internalID: -890332693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr melee death set 2 frame 15
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 828
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383cb4880a80b5a4bbb2bce7f9cf4688
+      internalID: 159244287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr landing 4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 804
+        width: 81
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f63e38ecbdb48b419280a1781142c46
+      internalID: 1011649229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_181
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 747
+        width: 70
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3edbd3faf73fbc43846261d4cda7247
+      internalID: -2033438293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_182
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 747
+        width: 65
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd047bfba55fd2840bea43ff8f5e050a
+      internalID: -1454379771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 710
+        width: 80
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d781cc5d0a647a94a9f92a154fcdd58f
+      internalID: 2089697863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_184
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 710
+        width: 81
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a90723aecbd0554590307f242b81fb9
+      internalID: 2015436506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting 3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 710
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6e1f0cbd966ad4c91af5aaa3db90ba
+      internalID: 284865432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting 4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 710
+        width: 83
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568d070403ca3d4cadb9901157b8460
+      internalID: -768663377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_187
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 747
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bb2b3df0033df43ac0c108ecdf8b4c
+      internalID: -385820481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_188
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 747
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17a87cf8c69e414a84bd4ecec0ff13c
+      internalID: 1919584483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_189
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 747
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869577261d356ac4aa1add34f0420e25
+      internalID: -1478737492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_190
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 747
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d385248d6069549ad6e182e133c6a6
+      internalID: 1074015313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_191
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 700
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aad06fa8e45934f89bd32aa1a8e085
+      internalID: 1211523674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_192
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 694
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6bfb32dfa94da41b93dfe6224dab02
+      internalID: 507436640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_193
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 687
+        width: 35
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1b5b0823837e14a8447e4443444c6b
+      internalID: -355868990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_194
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 687
+        width: 35
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79785972dd2c5f04e8bcd5b7a8bb8e11
+      internalID: 378491066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_195
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 687
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56edd9ce4b9033349bfc025d0d9df7f1
+      internalID: 1695459288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_196
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 687
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0cc724df36e344b850c3eede3e14d9
+      internalID: 1604230702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_197
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 680
+        width: 68
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d422d1d9dcba34790f5b0dc407feea
+      internalID: 1258988722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_198
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 681
+        width: 66
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb7f358e27cbc4386cd089b36f796e
+      internalID: -2140910711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr aiming up 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 634
+        width: 79
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a79cbf71b5c2c045959ef75e4fff7d8
+      internalID: 309580907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr aiming up 2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 634
+        width: 69
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3f63d3485b6464196617ae6c3c7244
+      internalID: -359734651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_201
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 637
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5192c368c99cd344b62d0af4f1b7f6b
+      internalID: 234696961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_202
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 637
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa17020062f11146ad0f23c7efb6063
+      internalID: 1503797014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_203
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 637
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daed968191ae3ef4e834f6aa58e26a10
+      internalID: -1905914237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_204
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 637
+        width: 25
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590827c1280495e4f9cbcb44ba399c52
+      internalID: 1127057635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_205
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 637
+        width: 28
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fb10c694e98ae4587db8da6022f04b
+      internalID: -113326666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_206
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 637
+        width: 31
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fd13845c3f70e4e874fb7f1e6b7d79
+      internalID: 505243159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_207
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 637
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba4c8a6288efe4d8d8c1898c8b4d5a
+      internalID: -2119347368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_208
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 613
+        width: 70
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8724cb7ee44246b4bb0c214bb8c37343
+      internalID: -1757828950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_209
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 614
+        width: 65
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6b9c041702a7c4b85d4888e4587c2b
+      internalID: 161741265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting up 1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 554
+        width: 65
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6d0cc36989fd54aa8fa172b0252a4a
+      internalID: 1638436805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting up 2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 554
+        width: 69
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21735f0a22c1e7b4a942f09939cd96b2
+      internalID: 668085401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting up 3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 554
+        width: 66
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7247c82c4a12c4183950fbdc5db97c
+      internalID: -1303425426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr shooting up 4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 554
+        width: 69
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804b1cc7b6aac7a49a4c3bdb84e8b05f
+      internalID: -450399746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_214
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 585
+        width: 27
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1748f2a81963acd4cbf7b59a878a1967
+      internalID: -602473352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_215
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 585
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb0b21832226a438fb484068ee420b
+      internalID: 1715729406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_216
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 585
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c607bbf19e7d83941a87a432baf11c95
+      internalID: -346407845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_217
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 585
+        width: 27
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5519f8f3d86430f4e8ccfdea59e24991
+      internalID: -1124988369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_218
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 550
+        width: 67
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc701698060d4834482e4781c6250398
+      internalID: -1635879292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_219
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 550
+        width: 66
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a4143611fd43541a63cca159171053
+      internalID: 1601264261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_220
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 552
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed944cf9dc85f0845b877115abdc1af4
+      internalID: 6726728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_221
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 553
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0006ade7279c44b8221f2e1aa94612
+      internalID: 1091351765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_222
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 553
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2517003fe9cc35945b2f8f88ac1b4730
+      internalID: -1986420713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_223
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 553
+        width: 12
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ffaff32009c6b498a65b6c8aab90e2
+      internalID: 1365176278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_224
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 553
+        width: 11
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db9df4553557bd4e8317b34afd4e2ec
+      internalID: -1843719719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 490
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed193739fb66584f9213ba7a6514bf0
+      internalID: 2101714730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 490
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b25ac8aa96a494fbd7800e3a21e92f
+      internalID: -1648963431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 490
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec94f702dc96bba4ca181a0c42671ec7
+      internalID: -157242989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 490
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4da6d82a7861419f0e02c5c1d75b3
+      internalID: -1407602714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 490
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aed322a2f9d2cf47932c307f0521b47
+      internalID: -528023402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 490
+        width: 87
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afbe0f47160bd5419f9c14831a9f4fd
+      internalID: -270736119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_231
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 530
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e497bb604599d44aeb873a3e3f5bef
+      internalID: 117916031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_232
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 530
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e530e0d34cf038c428fb174cc2ad6a49
+      internalID: -1249611116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_233
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 530
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956e856f22054b64dbd46d7949a0af56
+      internalID: 1369629338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_234
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 530
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586aec7449f1e9143a11928502a8d1b2
+      internalID: 2017361258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_235
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 521
+        width: 27
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d026d77d122a6714d975081e78316940
+      internalID: -821093002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_236
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 520
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a178dd64b60cc4791d60d09069c676
+      internalID: -1094868310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_237
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 520
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb35a9ebd94684686da0965e0741cf
+      internalID: 1845863140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_238
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 520
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37576fa561564714186fd217c430b30c
+      internalID: -987190640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_239
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 520
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971da65ef9321ba45a3be08232c80c9a
+      internalID: -1666598456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_240
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 524
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b0e92d8dce0345803b28bcc6d74ac
+      internalID: -1605567759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 434
+        width: 87
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6215852203ede4b9de475dc3796fd4
+      internalID: -1575870336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 1 frame 8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 434
+        width: 87
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060b0a8af5dc03b47b9d57d1d9bee591
+      internalID: -2054067415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_245
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 430
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f340c854b782438a5ffd1ef479cc8
+      internalID: -1033570573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_246
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 430
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a32e7847b83de847aa2b6a732ec2302
+      internalID: 883079324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_247
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 430
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7017f7fc14e083e448c7c3e71095d9c2
+      internalID: 221675871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_248
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 433
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7e4e9778ab2694098a2de72ae0dd49
+      internalID: -1857348708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_249
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 433
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8edc07743c042f40899485c236e26a8
+      internalID: -259397414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_250
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 434
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f526063c8fc04a97be9aea1b4a132
+      internalID: -223619990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_251
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 433
+        width: 18
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d05bc2b9c6ffd4da6475b3051363fc
+      internalID: 1294326996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_252
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 432
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5764d93bdfae0428a9c1e49a592498
+      internalID: 1994163577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_253
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 433
+        width: 64
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ec7c9ab88ce724f9fa386bcc52ddba
+      internalID: -1300559789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 373
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8e46a2bcf8075469e641deb13c3229
+      internalID: 2076031254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 373
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030c4caa33961884e852fa911d1ac77f
+      internalID: -1205940220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 373
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb18abc5db96364fa89f3d246313466
+      internalID: -365496847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 373
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98273ec1a4e0124ab34a98f86730260
+      internalID: 1589278177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 373
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851805ffe76c9ff489414d3e84106398
+      internalID: 634982038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 373
+        width: 93
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772dd43aa310b7a47bce6f6da14b845f
+      internalID: 1953898072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_260
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 350
+        width: 54
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5189fc4595e6e0f4fbffa25f4ff47f14
+      internalID: 746731231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_261
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 351
+        width: 59
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab46646a3bde9840831d7b2facfcbf9
+      internalID: -1692617381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_262
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 348
+        width: 55
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03c0726de5e8a4389f670cebc99a75
+      internalID: -1391356314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_263
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 351
+        width: 60
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c615a7b5531fee8488675cf38c2b531b
+      internalID: 216062929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 314
+        width: 95
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb5b3863d793174ba39d7cb7c4c3567
+      internalID: -1847607988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 314
+        width: 105
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1031266c04c810244bc4edc7b09868a5
+      internalID: 1678610482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 314
+        width: 80
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d4716c532d47f4c8c624ae9e034fe3
+      internalID: -428690855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 314
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db24da8321a89843a5292d220b0ce45
+      internalID: -1112948521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 314
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835be60498a5b874e9aa18a5dc1ce62e
+      internalID: -618483350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 314
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ff5e818eca9724f99bce1ebd8d4c18
+      internalID: -1459324789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_270
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 273
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c814e1cb514b6e449831138be6dde06
+      internalID: -2025546578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_271
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 273
+        width: 52
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7627d2556720440a957d9159d25f68
+      internalID: -18255651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_272
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 274
+        width: 53
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f8c291ea516942ac05ab8e52e6aa0
+      internalID: 1521501424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_273
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 274
+        width: 52
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62056a9a7a5ec844ad824bf19dd7fc0
+      internalID: 1343256390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 250
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ffd7c0df3e34408afd9222f12fe35
+      internalID: 1667349921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 250
+        width: 78
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b35b7c0ef889c14ab0f310db04ece64
+      internalID: 1760420522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr reloading set 2 frame 15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 250
+        width: 80
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34506a7bcc948c41a34c9f2b0c9e381
+      internalID: -1735977991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_277
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 187
+        width: 35
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46acdb9795e167940b73563543733fd2
+      internalID: 215388849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_278
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 223
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0e1ff9580a9604f93197fde9d737a7
+      internalID: -1489307038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_279
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 219
+        width: 17
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7080e61ef726c4793afed00c9baa46
+      internalID: 1683503298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_280
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 217
+        width: 19
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4085ff55af1dd49a6226a00fde4bae
+      internalID: -63008500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_281
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 219
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cc0334d470f5c4587b9b95a1fef17a
+      internalID: 1313186121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_282
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 186
+        width: 44
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f1f3f8c2852764e96fe04b0759f9ba
+      internalID: -698280611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_283
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 196
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf53093d22ed3f4b88b7cbf58eca5af
+      internalID: -1612123304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 170
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2437d0c5887f46bf1d388edd8c97a
+      internalID: -1588371628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 170
+        width: 83
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d682f6fd01e03544d9fbc8158eeb82e5
+      internalID: 329484432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 170
+        width: 83
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93527e620efad184fb1c5f0faa0d5c12
+      internalID: -928742836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 170
+        width: 81
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34105cbb45e33644680f70ba1ca49aa5
+      internalID: -586522724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 170
+        width: 81
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fb647614e069843b8f9a66f5459081
+      internalID: 899611667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_289
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 195
+        width: 9
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b04ebe9267020e45a42ddd25a06e451
+      internalID: -341583350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_290
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 211
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de18ed2a865667f4eacec961818d671b
+      internalID: -1968338689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_291
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 207
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a922cc3360ace4ca495fb4fa87f7e7
+      internalID: -1825459465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_292
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 212
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d053b48dc20288048893cb6cd436a6ca
+      internalID: -505401992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_293
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 209
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b95d6eed9e5cf245895e15f9307bcf9
+      internalID: 1215114662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 170
+        width: 81
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b60a92692815114098360138d41ff6e
+      internalID: 268969617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_295
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 203
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de09150cf0440544ba48f26331bdd815
+      internalID: 1228621234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_296
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 205
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c854abe364107354fb140261395e10d2
+      internalID: -825896614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_297
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 186
+        width: 19
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b7422548edc574998e5451fc86901c
+      internalID: -852918387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_298
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 197
+        width: 6
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ba8135311877b438346f633ffddd45
+      internalID: -1109586926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_299
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 206
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1e14c9ccd40747b65c99e5cd119d9
+      internalID: -1129780734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_300
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 186
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ccc45ed2a9865438146074edcfc092
+      internalID: -1822510708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_301
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 187
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea292fa534569ea43bc8180a837e52a2
+      internalID: 1531695874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_302
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 188
+        width: 7
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48988006b83f5154abb57efe37e58d54
+      internalID: -934206586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_303
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 187
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1439a71a16b5f4c93bca3b906f7d7c
+      internalID: -9428494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_304
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 191
+        width: 21
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe37fe5999036e9419299df6986cba5e
+      internalID: 1798722318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_305
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 186
+        width: 38
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb7916026ac0ec4d8dc62d91bb9d68f
+      internalID: -428031546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_306
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 193
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a29c439744840247a6015aeefca2718
+      internalID: -807938414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_307
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 192
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcaf525fa96c32478bdb26f3f3bdbd8
+      internalID: -917380387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_308
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 186
+        width: 10
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaf88542424f39499883268137d9c56
+      internalID: -1299591620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 126
+        width: 80
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b95f7b3e8f1fc4285ad41997e38704
+      internalID: 1840019939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 77
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8b65cff9ae6748ad857d1c86bf7c8
+      internalID: -1067266691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 123
+        width: 79
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4b0bc443c7b849be01cb10c664aac
+      internalID: 1535237321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 123
+        width: 80
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36516609b8671a84c9abe43873ed895c
+      internalID: -747574729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 1 frame 11
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 124
+        width: 81
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2687628ac0f9e2428c31be70c8718a6
+      internalID: 527071318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 54
+        width: 86
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1504f509157c241bd0d0491a7495d3
+      internalID: -451648914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 83
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f958530ec55c6499f7df0997ef9a36
+      internalID: -1059469836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 53
+        width: 83
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374c44873c72c0a4dbfb59dae0c6ef26
+      internalID: -754537109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 53
+        width: 81
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4945cb3e8ce648c4bb88ac08fca395e0
+      internalID: 824831348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 53
+        width: 81
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7a50cf4c6552c45806e9698f01f60a
+      internalID: 1645146994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Allen Jr death set 2 frame 6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 50
+        width: 79
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83edc7cb120ff41b86c62356570485
+      internalID: -2101210411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_217: -1124988369
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_179: 2087191146
+      Allen Jr melee run 10: 797205535
+      Drill instructor melee 1: -1285353014
+      Allen Jr reloading set 1 frame 3: -157242989
+      Allen Jr melee death set 2 frame 7: 2103491777
+      Allen Jr idle set 2 frame 2: -427351049
+      Allen Jr jump 1: -1739995350
+      Drill instructor idle 1: 1660843951
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_352: -1905047645
+      Allen Jr idle set 2 frame 1: -2021605789
+      Allen Jr melee death set 2 frame 5: -948897199
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_361: 1117583773
+      Allen Jr melee death set 2 frame 4: 1194709366
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_78: -2114748187
+      Allen Jr melee idle attack 8: -236534454
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_239: -1666598456
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_325: 385392480
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_344: -1955574424
+      Drill instructor melee 5: -2102763563
+      Allen Jr jump 3: 60092645
+      Allen Jr reloading set 2 frame 15: -1735977991
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_317: 1697732261
+      Drill instructor idle 5: 1655634990
+      Drill instructor melee 7: -1041971324
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_222: -1986420713
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_207: -2119347368
+      Allen Jr death set 2 frame 4: 824831348
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_314: 305131253
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_356: -110566625
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_369: 824720207
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_357: -813057512
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_74: 704225193
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_340: -1110170681
+      Allen Jr jump 4: 1948104077
+      Drill instructor melee: 1463367409
+      Allen Jr melee jump: -1783999848
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_194: 378491066
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_197: 1258988722
+      Allen Jr death set 1 frame 1: -1588371628
+      Allen Jr reloading set 2 frame 6: 1953898072
+      Allen Jr run 3: -249131669
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_3: -841791854
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_238: -987190640
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_280: -63008500
+      Allen Jr death set 2 frame 6: -2101210411
+      Allen Jr reloading set 1 frame 8: -2054067415
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_208: -1757828950
+      Allen Jr jump 2: 1254321177
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_324: 1188135065
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_252: 1994163577
+      Allen Jr reloading set 2 frame 14: 1760420522
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_316: 2089855741
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_329: -2076584193
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_1: -1043665407
+      Allen Jr melee idle attack 7: 654142339
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_195: 1695459288
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_303: -9428494
+      Allen Jr melee death 1: 1995725758
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_270: -2025546578
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_296: -825896614
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_307: -917380387
+      Allen Jr melee jump 3: 2098241330
+      Allen Jr reloading set 2 frame 9: -428690855
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_218: -1635879292
+      Allen Jr melee death set 2 frame 9: 1421026798
+      Allen Jr readyed 5: 290935317
+      Allen Jr melee attack reuturn 2: -1496547240
+      Allen Jr idle set 1 frame 2: 1940578097
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_347: 1231552923
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_80: -311557526
+      Allen Jr melee idle 1: -1550136922
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_341: -1265767274
+      Allen Jr melee run 4: 136892223
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_68: -1632469105
+      Allen Jr run 4: 690685046
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_293: 1215114662
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_67: -904095798
+      Allen Jr run 9: -1300495886
+      Allen Jr aiming up 2: -359734651
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_79: -711919028
+      Allen Jr death set 2 frame 2: -1059469836
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_320: 245849089
+      Allen Jr melee attack 2: -1342510908
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_373: -1759551801
+      Allen Jr reloading set 2 frame 4: 1589278177
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_181: -2033438293
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_247: 221675871
+      Allen Jr melee idle attack 11: 755843305
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_190: 1074015313
+      Allen Jr melee run 2: -460468359
+      Allen Jr landing 3: -1717272558
+      Allen Jr melee run 1: -105647197
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_73: -1385603817
+      Allen Jr reloading set 2 frame 10: -1112948521
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_236: -1094868310
+      Allen Jr death set 1 frame 2: 329484432
+      Allen Jr reloading set 1 frame 7: -1575870336
+      Allen Jr readyed 3: 597890086
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_65: 1749918553
+      Allen Jr landing 1: -46168892
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_180: -1131438562
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_90: 1417689411
+      Allen Jr melee death 5: -556916250
+      Allen Jr death set 2 frame 1: -451648914
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_277: 215388849
+      Allen Jr run 1: 2074911122
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_301: 1531695874
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_339: -1246586161
+      Allen Jr run 2: -1535467812
+      Allen Jr melee idle attack 6: -335528791
+      Allen Jr melee death set 2 frame 12: -1299844128
+      Drill instructor shout 1: 2123422768
+      Allen Jr reloading set 1 frame 4: -1407602714
+      Allen Jr melee attack 3: 1095054709
+      Allen Jr readyed 2: -1159916502
+      Allen Jr melee death set 2 frame 13: -1217251388
+      Allen Jr readyed 7: 2021738572
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_355: 375291867
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_84: 408151659
+      Allen Jr melee death set 2 frame 11: -150310239
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_81: 2033260512
+      Drill instructor shout 3: -1905490001
+      Allen Jr melee attack 1: 1624146998
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_253: -1300559789
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_233: 1369629338
+      Allen Jr melee idle set 2 frame 2: 170472615
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_223: 1365176278
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_363: 902978130
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_193: -355868990
+      Allen Jr death set 1 frame 5: 899611667
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_323: 617264270
+      Allen Jr reloading set 1 frame 5: -528023402
+      Drill instructor rage 3: -1075126215
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_221: 1091351765
+      Drill instructor idle 2: 902058750
+      Drill instructor point 3: 587070723
+      Allen Jr run 10: -244071667
+      Allen Jr death set 1 frame 6: 268969617
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_214: -602473352
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_76: -1099089406
+      Allen Jr melee idle 4: 1047334550
+      Allen Jr run 7: -2147151290
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_87: -700313801
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_0: -1889340376
+      Allen Jr shooting 4: -768663377
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_338: 1890799895
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_187: -385820481
+      Drill instructor melee 6: -2077650498
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_282: -698280611
+      Allen Jr idle set 1 frame 1: 527986187
+      Allen Jr melee jump 1: 2027988297
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_305: -428031546
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_354: 1051591433
+      Allen Jr idle set 2 frame 3: 716760131
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_5: 1537103842
+      Allen Jr melee idle attack 10: -2092408059
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_368: -1654886449
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_345: -567277901
+      Allen Jr death set 1 frame 8: -1067266691
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_220: 6726728
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_232: -1249611116
+      Allen Jr melee death set 2 frame 8: -726454441
+      Allen Jr melee run 6: -1716641777
+      Allen Jr idle set 2 frame 4: -279069406
+      Allen Jr melee idle 6: -2091015693
+      Allen Jr melee run 9: -1975406843
+      Allen Jr reloading set 2 frame 3: -365496847
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_318: -1962778443
+      Allen Jr shooting up 1: 1638436805
+      Drill instructor melee 2: -162322739
+      Allen Jr melee idle attack 3: -1441148307
+      Allen Jr melee run 7: 1862494242
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_6: 13002402
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_342: -1293155675
+      Allen Jr melee idle 5: -1890192034
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_326: 1883828962
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_203: -1905914237
+      Allen Jr death set 2 frame 3: -754537109
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_295: 1228621234
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_205: -113326666
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_297: -852918387
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_89: 831974783
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_250: -223619990
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_243: -1568892346
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_291: -1825459465
+      Drill instructor shout 2: 1292669681
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_272: 1521501424
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_198: -2140910711
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_7: 621531789
+      Allen Jr melee idle attack 12: 291834634
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_260: 746731231
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_315: 622738694
+      Allen Jr idle set 1 frame 6: -862395200
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_299: -1129780734
+      Allen Jr melee idle set 2 frame 5: 1445164461
+      Allen Jr idle set 2 frame 5: 103627435
+      Allen Jr melee idle set 2 frame 3: 1460147657
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_321: -913189336
+      Allen Jr death set 1 frame 4: -586522724
+      Allen Jr melee death 3: -1345210361
+      Allen Jr death set 1 frame 11: 527071318
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_365: 1742845857
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_219: 1601264261
+      Allen Jr reloading set 2 frame 12: -1459324789
+      Allen Jr melee idle set 2 frame 4: -1202337337
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_353: -204250500
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_281: 1313186121
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_364: -506500583
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_306: -807938414
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_4: 556958331
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_91: -203938413
+      Allen Jr melee idle attack 9: -1709323120
+      Allen Jr melee idle attack 5: 425847290
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_271: -18255651
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_279: 1683503298
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_283: -1612123304
+      Allen Jr shooting up 4: -450399746
+      Allen Jr melee idle 2: -849810282
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_261: -1692617381
+      Allen Jr reloading set 2 frame 7: -1847607988
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_215: 1715729406
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_95: -1886478138
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_75: 1579337875
+      Allen Jr landing 2: -1389994177
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_370: -932892288
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_2: 172736842
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_244: -2040838670
+      Allen Jr reloading set 2 frame 1: 2076031254
+      Allen Jr melee death set 2 frame 6: -461086760
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_367: 2047878000
+      Allen Jr melee idle attack 2: -1129350197
+      Drill instructor melee end 1: 930666909
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_191: 1211523674
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_349: -1007011223
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_292: -505401992
+      Allen Jr landing 4: 1011649229
+      Allen Jr run 5: 1843693449
+      Allen Jr melee idle 3: -1803870620
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_362: -1555106694
+      Allen Jr melee run 3: -1563161892
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_328: 988462467
+      Allen Jr melee death 6: 601987721
+      Allen Jr idle set 1 frame 4: 792678405
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_319: -1799626402
+      Allen Jr reloading set 1 frame 2: -1648963431
+      Allen Jr run 8: -416336175
+      Allen Jr reloading set 2 frame 8: 1678610482
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_224: -1843719719
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_184: 2015436506
+      Allen Jr idle set 2 frame 6: 844234698
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_8: -424641290
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_216: -346407845
+      Allen Jr idle set 1 frame 3: -1794999941
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_273: 1343256390
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_322: 208906895
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_372: 179169220
+      Allen Jr reloading set 1 frame 6: -270736119
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_177: -1842569704
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_346: -690493022
+      Allen Jr readyed 4: 442819787
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_202: 1503797014
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_237: 1845863140
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_182: -1454379771
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_82: -1000450460
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_235: -821093002
+      Drill instructor melee 4: 2061935312
+      Allen Jr death set 1 frame 7: 1840019939
+      Allen Jr shooting 2: 585651633
+      Allen Jr melee readyed 2: -1018656163
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_61: 1149015281
+      Allen Jr run 6: -1209079379
+      Drill instructor rage 5: 482440585
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_231: 117916031
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_366: -1827178482
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_348: -516802341
+      Allen Jr death set 2 frame 5: 1645146994
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_83: -509908770
+      Allen Jr readyed 6: 966295927
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_298: -1109586926
+      Allen Jr melee run 8: 2044368649
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_234: 2017361258
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_204: 1127057635
+      Allen Jr reloading set 2 frame 13: 1667349921
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_359: -772753062
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_63: -1694479604
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_263: 216062929
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_240: -1605567759
+      Allen Jr melee death set 2 frame 14: -890332693
+      Allen Jr melee jump 4: 1856857204
+      Allen Jr readyed 1: -316246269
+      Allen Jr melee death set 2 frame 15: 159244287
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_249: -259397414
+      Drill instructor rage 2: -1112421540
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_209: 161741265
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_245: -1033570573
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_188: 1919584483
+      Allen Jr reloading set 1 frame 1: 2101714730
+      Allen Jr melee jump 2: -1796195826
+      Allen Jr aiming up 1: 309580907
+      Allen Jr reloading set 2 frame 11: -618483350
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_278: -1489307038
+      Allen Jr melee idle attack 4: -1663077755
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_251: 1294326996
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_289: -341583350
+      Allen Jr melee death set 2 frame 3: 539825080
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_358: 1299908537
+      Allen Jr death set 1 frame 9: 1535237321
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_262: -1391356314
+      Allen Jr reloading set 2 frame 2: -1205940220
+      Allen Jr shooting up 3: -1303425426
+      Allen Jr melee readyed 1: -642014298
+      Allen Jr melee jump 13: 1668144804
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_302: -934206586
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_85: -2132084149
+      Drill instructor rage 1: 583974686
+      Allen Jr melee idle set 2 frame 6: -2000844327
+      Allen Jr melee attack reuturn 4: 943526385
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_206: 505243159
+      Allen Jr melee death 2: -1198915868
+      Allen Jr melee attack 4: 104718173
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_201: 234696961
+      Allen Jr reloading set 2 frame 5: 634982038
+      Allen Jr death set 1 frame 10: -747574729
+      Allen Jr melee death 4: -213361994
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_246: 883079324
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_88: 910891633
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_86: 1190894539
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_304: 1798722318
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_330: 524335057
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_300: -1822510708
+      Allen Jr shooting 1: 1479614029
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_308: -1299591620
+      Allen Jr melee run 5: -2047596767
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_69: 2115067131
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_94: 1266579346
+      Allen Jr melee attack reuturn 1: 878307819
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_178: 42033048
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_351: 467912475
+      Drill instructor idle 3: 1080622940
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_196: 1604230702
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_327: 880785276
+      Allen Jr shooting: 2089697863
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_62: 1686508284
+      Drill instructor melee end 2: -1528233153
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_66: -1681476730
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_343: 1675899455
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_371: 1310708258
+      Drill instructor point 2: -1206731552
+      Allen Jr melee death set 2 frame 2: -317085235
+      Drill instructor rage 4: -1662697307
+      Allen Jr melee idle attack 13: 797856068
+      Allen Jr shooting up 2: 668085401
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_248: -1857348708
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_77: -928166535
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_290: -1968338689
+      Allen Jr idle set 1 frame 5: -89501902
+      Allen Jr shooting 3: 284865432
+      Allen Jr melee idle set 2 frame 1: -1300306700
+      Allen Jr melee landing 1: 1808059275
+      Drill instructor point 1: 1256348451
+      Allen Jr melee death set 2 frame 1: -1172958235
+      Allen Jr death set 1 frame 3: -928742836
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_331: 1823098999
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_360: -272095271
+      Allen Jr melee idle attack 1: 239238308
+      Allen Jr melee attack reuturn 3: -729807785
+      Allen Jr melee death set 2 frame 10: 643415447
+      Drill instructor idle 4: -2023325415
+      Drill instructor melee 3: 1483311069
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_192: 507436640
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_189: -1478737492
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_64: -555887332
+      Custom Edited - Metal Slug Customs - Allen Jr Expanded_350: 1728247111
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

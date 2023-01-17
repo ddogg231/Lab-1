@@ -1,0 +1,1738 @@
+fileFormatVersion: 2
+guid: 2da854e74660e164987e7637407bb494
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eneime MH-6J Masknell_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 690
+        width: 83
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd1f67869081df43a75207d81d9bb69
+      internalID: -1752932122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 690
+        width: 78
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffaac819957adb4d8353d6287472916
+      internalID: -1571768963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 690
+        width: 78
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f71ca5db633e24eb32301020158cc2
+      internalID: -658293423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 690
+        width: 78
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8152deb9b6d6df4faf5c54433dabdca
+      internalID: 525604899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 690
+        width: 78
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a3a29e25cbad942ae8ce4b92c61427
+      internalID: -1348961371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 688
+        width: 83
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b801a7ff1eb46d941b69ef27f3e8ddb0
+      internalID: -1647173052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 621
+        width: 77
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece4d74ce201abc48ad705cc5a50240c
+      internalID: 74367797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 621
+        width: 77
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a0dcc4c6dce2d4792b657d74458f54
+      internalID: 2100961200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 621
+        width: 77
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3007df079570f7246ac56c4992b11eb7
+      internalID: 454276201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 621
+        width: 77
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeed33b0773a5e14b9974c5f2c3473d7
+      internalID: 1503335104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 621
+        width: 82
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40ce2fe02d801945a062b8e8e602f36
+      internalID: 341049528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 621
+        width: 83
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8aa7348834a854cb0b31e51602e273
+      internalID: 1566939885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 548
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7517ac5930cd5e9429db5aa6a2068fb4
+      internalID: -679655752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 548
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81592862ce6158f43885e8dfa0dffe04
+      internalID: 607560465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 548
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e910bba0865c3b4ba8f6638fad61452
+      internalID: 2144352204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 548
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985e887979eb48a449270935c317034f
+      internalID: -502057686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 548
+        width: 82
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8743ca7c705b7564c80dec078de4be77
+      internalID: 1090533195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_17
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 548
+        width: 82
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbf7c7e3ae83924ab15c9d11bfec383
+      internalID: 746361419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 471
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1be9dc2976b0de47a2c453df3ab9b02
+      internalID: 1363877700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 471
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c4351e9f3ff6f419898b2f785ecb13
+      internalID: 1671658362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 471
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c6ea7f809f16647a028f4b989b4b7e
+      internalID: -1303413022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_21
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 471
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e17a45f349a864198fc919ad800e51
+      internalID: -856410188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 471
+        width: 78
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee804eb1a490e4c960a96a9755e084
+      internalID: -2025789173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_23
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 471
+        width: 84
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe8231749c13d345bb3dded1688fb8d
+      internalID: -1390062304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 394
+        width: 59
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64ac3ceaa22cd46b6689a795831b6d
+      internalID: -2070660492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 394
+        width: 57
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f8364bef0da4348bb8303c24065c94
+      internalID: 825992709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 394
+        width: 57
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1a868af3a199840b459488c6bc0c72
+      internalID: 1603893248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 394
+        width: 57
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8250adbe90271594bb95d52a8f6de999
+      internalID: -1798112186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 394
+        width: 67
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4df244a559e8445ab158fe49798c90
+      internalID: -332560193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_29
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 394
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44188625e15d3f48a5f3eb2d3d318a2
+      internalID: 1839100884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 317
+        width: 59
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864b79148c8663947874f53d611d4735
+      internalID: 456221645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 317
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a0d31ea6827e74986927cc7d3fe9a0
+      internalID: -1644959757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 317
+        width: 49
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd17f71406ee664c95c1ec4324b16ed
+      internalID: 391893318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_33
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 317
+        width: 49
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a742efe3bc784cad3e1bfe1010df5
+      internalID: 1527700682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_34
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 317
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c573d091488f8fd4bb65207797b99c75
+      internalID: 466564590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 317
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fb0fd7369539d4cbb756ad08cc91a3
+      internalID: -1710950044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 240
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2051e421f7021b442b55175deb151af1
+      internalID: 600801225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_67
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 240
+        width: 46
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f05e86bfe6d6a346b6892ffcfdd1e07
+      internalID: -1325988585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_68
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 240
+        width: 43
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40996861193d4d4486c1af7979dd3bd
+      internalID: 1321242698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_69
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 240
+        width: 43
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d686a7eca8d673642afc7b35387ef077
+      internalID: -1145568830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_70
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 54
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995e3b0e22e463f4e8d41e947ea5ddd6
+      internalID: -2097748266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_71
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 240
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e3db551080ca429ce28d63b9b0bf4
+      internalID: -551403242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_83
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 64
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb0da666fde9fc4188c5fc6d296892c
+      internalID: -204583164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_84
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 163
+        width: 51
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1489f74ae4dec2b42a0b0fd3aa4afada
+      internalID: -941686037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_85
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 163
+        width: 42
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fddca9097b9164bbe716271788fdfd
+      internalID: 549916048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 163
+        width: 42
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa80cc439493cf48b77747e8119b659
+      internalID: -1274623970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_87
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 163
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae6cc23b9f6be46b95db6987d38489
+      internalID: -1367043394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 162
+        width: 64
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5720d1c8a5a9f2b4bb8d80da3eaa4ca8
+      internalID: 1997882599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_89
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 78
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d6118d4ace5cc4a8a1fb7cf48dd563
+      internalID: 1290659409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_90
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 90
+        width: 77
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6565472368851b544a0195f682791227
+      internalID: 885739652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_91
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 88
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a66558355dad489a0859c7acbee04
+      internalID: -420345960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 86
+        width: 69
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df91a0bb6e88ea84595507ae6e37cf21
+      internalID: 72990344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_93
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 86
+        width: 57
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111e8ac15dba6747aa3deb0fb47d40e
+      internalID: -2066289599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_94
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 86
+        width: 49
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96720c88d40ad1a41960f52b4b894164
+      internalID: 1134346529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_95
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 86
+        width: 43
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03564d00c6e46a4ea06de229dbf798e
+      internalID: -288140355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 13
+        width: 42
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d528c52b7e3ed449bbcacb73851fd0
+      internalID: 260309439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_98
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 21
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ef2fee26827240b90c5697e487772
+      internalID: -649468418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_100
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 65
+        width: 21
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aef440c1f2e7dd4398284b34577348f
+      internalID: 1146718217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_101
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 65
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47d47d5418cd7a43a41666a66ddeaef
+      internalID: -365218625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_102
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89f8fbb0cd59434cb24182022f3b099
+      internalID: -500357896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_103
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4d526d3b1117e43996d0d359272535
+      internalID: -1611252490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_104
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 65
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7aca1852254f041b1274ac140579ee
+      internalID: 446274716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_105
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 57
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d82ad62a9f48e48a60cd111c13ab92
+      internalID: -1379577385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_106
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 64
+        width: 23
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7f0165c990a44badb42207ab8dc89
+      internalID: -1849827775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_127
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 32
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e175d3ab89f2c49958f00ff0ced5c3
+      internalID: 1282985918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_128
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 33
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bcd465db1b9104eacf3bc5a6da7ef3
+      internalID: -2114067166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_129
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 30
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab71cd8bd877fa4bbddbee7e8cdc4d9
+      internalID: 936459670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_130
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 37
+        width: 23
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec50f6b1121b6d94aa6ffccf1794cd7d
+      internalID: -1658708804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_143
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73f5d121e59f0d4aa5314fc7167a73f
+      internalID: -1972854512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metal Slug Customs - MH-6J Masknell_144
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 10
+        width: 23
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e044e2ae993da45b961fc16700fc16
+      internalID: 702002553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_124: 1945867031
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_97: 1857003787
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_71: -551403242
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_59: -841679420
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_139: -1137839623
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_95: -288140355
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_25: 825992709
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_31: -1644959757
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_6: 74367797
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_64: 1891592186
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_80: -552302829
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_72: 359593595
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_90: 885739652
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_141: 1788509063
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_49: 542899703
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_8: 454276201
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_54: -2129479749
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_117: 1215279969
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_67: -1325988585
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_2: -658293423
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_62: -1479819865
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_36: 300902700
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_39: 1540607172
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_1: -1571768963
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_123: -6628298
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_10: 341049528
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_46: 715971910
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_19: 1671658362
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_52: 1442767439
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_13: 607560465
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_61: -1645584030
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_58: 452230230
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_98: -649468418
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_81: -1616310846
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_76: 1160874478
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_119: -1328561826
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_109: -350699369
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_17: 746361419
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_3: 525604899
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_63: 1467969055
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_126: -597481565
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_69: -1145568830
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_78: 748645312
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_74: 152421738
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_108: 1788539252
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_128: -2114067166
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_27: -1798112186
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_133: 489987128
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_137: 1894225343
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_143: -1972854512
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_75: -1943802816
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_53: -1218543533
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_7: 2100961200
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_16: 1090533195
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_103: -1611252490
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_91: -420345960
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_29: 1839100884
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_138: -1027325397
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_106: -1849827775
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_121: -61332713
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_87: -1367043394
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_79: 1034915849
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_99: 1144372462
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_120: -525714268
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_116: 145272963
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_142: 1503117298
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_96: 260309439
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_14: 2144352204
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_70: -2097748266
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_15: -502057686
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_18: 1363877700
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_105: -1379577385
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_77: -331007140
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_35: -1710950044
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_51: 2027728799
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_101: -365218625
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_100: 1146718217
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_28: -332560193
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_113: -1499564508
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_32: 391893318
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_85: 549916048
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_144: 702002553
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_88: 1997882599
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_92: 72990344
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_131: 1850534049
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_136: 542370119
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_38: -663109369
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_9: 1503335104
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_48: 1151256857
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_82: -829336224
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_84: -941686037
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_23: -1390062304
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_112: -903915006
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_118: -1691544741
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_132: -801918601
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_33: 1527700682
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_66: 600801225
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_93: -2066289599
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_129: 936459670
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_5: -1647173052
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_12: -679655752
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_37: -48493147
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_26: 1603893248
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_83: -204583164
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_122: 1482173313
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_41: 43548409
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_42: 727653139
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_30: 456221645
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_114: -1183170516
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_45: -815293631
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_47: -1866901734
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_24: -2070660492
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_127: 1282985918
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_56: -1608336845
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_21: -856410188
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_107: 266203133
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_111: 69903716
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_135: 1922193996
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_140: 391076230
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_40: -210050996
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_115: -420498302
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_50: 544677328
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_89: 1290659409
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_134: 1827671870
+      Eneime MH-6J Masknell_0: -1752932122
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_94: 1134346529
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_86: -1274623970
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_130: -1658708804
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_20: -1303413022
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_110: 1720918597
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_4: -1348961371
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_73: -706403063
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_22: -2025789173
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_34: 466564590
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_102: -500357896
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_68: 1321242698
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_44: -1730268751
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_65: -832856452
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_57: -606395682
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_125: 12394513
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_11: 1566939885
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_55: 1132324494
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_104: 446274716
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_43: 931810815
+      Custom Edited - Metal Slug Customs - MH-6J Masknell_60: 1223093411
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
