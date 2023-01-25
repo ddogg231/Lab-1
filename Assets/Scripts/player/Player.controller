@@ -39,7 +39,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hinput
     m_EventTreshold: 0.1
   - m_ConditionMode: 1
-    m_ConditionEvent: isgrounded
+    m_ConditionEvent: isGrounded
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1613509929956590300}
@@ -154,8 +154,14 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: isgrounded
+  - m_Name: isGrounded
     m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: isShooting
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -339,7 +345,7 @@ AnimatorStateMachine:
     m_Position: {x: -220, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -168770028071761115}
-    m_Position: {x: 290, y: 120, z: 0}
+    m_Position: {x: 290, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3051015655801816655}
     m_Position: {x: 40, y: 120, z: 0}
