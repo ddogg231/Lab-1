@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
-public class playercontrol : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     //Components
     Rigidbody2D rb;
@@ -16,9 +16,9 @@ public class playercontrol : MonoBehaviour
 
     //groundcheck stuff
     public bool isGrounded;
-    public Transform GroundCheck;
-    public LayerMask isGroundedLayer;
-    public float GroundCheckRadius;
+    public Transform groundCheck;
+    public LayerMask isGroundLayer;
+    public float groundCheckRadius;
 
     // Start is called before the first frame update
     void Start()
@@ -30,24 +30,24 @@ public class playercontrol : MonoBehaviour
         if (speed <= 0)
         {
             speed = 6.0f;
-            Debug.Log("Speed was set incorrect, defaulting to" + speed.ToString());
+            Debug.Log("Speed was set incorrect, defaulting to " + speed.ToString());
         }
-        
+
         if (jumpForce <= 0)
         {
             jumpForce = 300;
-            Debug.Log("jump force was set incorrect, defaulting to " + jumpForce.ToString());
+            Debug.Log("Jump force was set incorrect, defaulting to " + jumpForce.ToString());
         }
 
-        if (GroundCheckRadius <= 0)
+        if (groundCheckRadius <= 0)
         {
-            GroundCheckRadius = 0.2f;
-            Debug.Log("Gound Check not set, finding it manually!");
+            groundCheckRadius = 0.2f;
+            Debug.Log("Ground Check Radius was set incorrect, defaulting to " + groundCheckRadius.ToString());
         }
 
-        if (!GroundCheck) 
+        if (!groundCheck)
         {
-            GroundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
+            groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
             Debug.Log("Ground Check not set, finding it manually!");
         }
     }
@@ -57,9 +57,9 @@ public class playercontrol : MonoBehaviour
     {
         float hinput = Input.GetAxisRaw("Horizontal");
 
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, GroundCheckRadius, isGroundedLayer);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
-        if (isGrounded && Input.GetButtonDown("jump")) 
+        if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
@@ -70,8 +70,5 @@ public class playercontrol : MonoBehaviour
 
         anim.SetFloat("hinput", Mathf.Abs(hinput));
         anim.SetBool("isGrounded", isGrounded);
-
-
-        Debug.Log(hinput);
     }
 }
