@@ -16,9 +16,9 @@ public class playercontrol : MonoBehaviour
 
     //groundcheck stuff
     public bool isGrounded;
-    public Transform groundCheck;
+    public Transform GroundCheck;
     public LayerMask isGroundedLayer;
-    public float groundCheckRadius;
+    public float GroundCheckRadius;
 
     // Start is called before the first frame update
     void Start()
@@ -39,15 +39,15 @@ public class playercontrol : MonoBehaviour
             Debug.Log("jump force was set incorrect, defaulting to " + jumpForce.ToString());
         }
 
-        if (groundCheckRadius <= 0)
+        if (GroundCheckRadius <= 0)
         {
-            groundCheckRadius = 0.2f;
+            GroundCheckRadius = 0.2f;
             Debug.Log("Gound Check not set, finding it manually!");
         }
 
-        if (!groundCheck) 
+        if (!GroundCheck) 
         {
-            groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
+            GroundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
             Debug.Log("Ground Check not set, finding it manually!");
         }
     }
@@ -57,7 +57,7 @@ public class playercontrol : MonoBehaviour
     {
         float hinput = Input.GetAxisRaw("Horizontal");
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundedLayer);
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, GroundCheckRadius, isGroundedLayer);
 
         if (isGrounded && Input.GetButtonDown("jump")) 
         {
