@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask isGroundLayer;
     public float groundCheckRadius;
-
+    public float isShooting;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float hinput = Input.GetAxisRaw("Horizontal");
-
+        float isShooting = Input.GetButtondown()
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
         if (isGrounded && Input.GetButtonDown("Jump"))
@@ -70,5 +70,6 @@ public class PlayerController : MonoBehaviour
 
         anim.SetFloat("hinput", Mathf.Abs(hinput));
         anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("isShooting");
     }
 }
