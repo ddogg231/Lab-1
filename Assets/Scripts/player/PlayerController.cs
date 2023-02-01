@@ -55,9 +55,27 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
         float hinput = Input.GetAxisRaw("Horizontal");
-        float isShooting = Input.GetButtondown()
+        bool isShooting = Input.GetButtonDown("Fire1");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
+
+        if(curPlayingClip.Length > 0)
+        {
+            if (Input.GetButtonDown("Fire") && curPlayingClip[0].clip.name != "Fire")
+            {
+                anim.SetTrigger("isShooting");
+            }
+            else if ((curPlayingClip[0].clip.name == "Fire"))
+            {
+                rb.velocity = Vector2.zero;
+            }
+            else 
+            {
+                Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
+                rb.velocity = moveDirection;
+            }
+        }
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
@@ -65,11 +83,20 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
 
-        Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
-        rb.velocity = moveDirection;
+        if(!isGrounded && Input.GetButtonDown("Jump"))
+        {
+            anim.SetTrigger("shooting up");
+        }
+       
+       // Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
+       // rb.velocity = moveDirection;
 
         anim.SetFloat("hinput", Mathf.Abs(hinput));
         anim.SetBool("isGrounded", isGrounded);
-        anim.SetFloat("isShooting");
+
+        //Check for flipped and create an algorithm to flip character
+            if (hinput > 0 && sr.flipX || hinput < 0 && !sr.flipX)
+            sr.flipX = !sr.flipX;
+     
     }
 }
