@@ -62,11 +62,11 @@ public class PlayerController : MonoBehaviour
 
         if(curPlayingClip.Length > 0)
         {
-            if (Input.GetButtonDown("Fire") && curPlayingClip[0].clip.name != "Fire")
+            if (Input.GetButtonDown("Fire1") && curPlayingClip[0].clip.name != "Fire1")
             {
                 anim.SetTrigger("isShooting");
             }
-            else if ((curPlayingClip[0].clip.name == "Fire"))
+            else if ((curPlayingClip[0].clip.name == "Fire1"))
             {
                 rb.velocity = Vector2.zero;
             }
