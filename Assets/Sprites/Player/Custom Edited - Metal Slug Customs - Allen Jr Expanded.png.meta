@@ -4641,7 +4641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_231
+      name: projectile 1
       rect:
         serializedVersion: 2
         x: 699
@@ -4662,7 +4662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_232
+      name: projectile 2
       rect:
         serializedVersion: 2
         x: 712
@@ -4683,7 +4683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_233
+      name: projectile 3
       rect:
         serializedVersion: 2
         x: 724
@@ -4704,7 +4704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_234
+      name: projectile 4
       rect:
         serializedVersion: 2
         x: 736
@@ -4725,13 +4725,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_235
+      name: dead projectile 2
       rect:
         serializedVersion: 2
         x: 758
-        y: 521
-        width: 27
-        height: 14
+        y: 522
+        width: 10
+        height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4746,7 +4746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_236
+      name: powered projectile 1
       rect:
         serializedVersion: 2
         x: 700
@@ -4767,7 +4767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_237
+      name: powered projectile 2
       rect:
         serializedVersion: 2
         x: 713
@@ -4788,7 +4788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_238
+      name: powered projectile 3
       rect:
         serializedVersion: 2
         x: 725
@@ -4809,7 +4809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_239
+      name: powered projectile 4
       rect:
         serializedVersion: 2
         x: 737
@@ -4830,7 +4830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Custom Edited - Metal Slug Customs - Allen Jr Expanded_240
+      name: dead projectile 1
       rect:
         serializedVersion: 2
         x: 750
@@ -6467,6 +6467,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dead projectile 3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 521
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c56a0dda6501a048ba0d7e0e444bf48
+      internalID: -793178481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -6488,13 +6509,13 @@ TextureImporter:
       Allen Jr jump 1: -1739995350
       Drill instructor idle 1: 1660843951
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_352: -1905047645
+      powered projectile 2: 1845863140
       Allen Jr idle set 2 frame 1: -2021605789
       Allen Jr melee death set 2 frame 5: -948897199
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_361: 1117583773
       Allen Jr melee death set 2 frame 4: 1194709366
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_78: -2114748187
       Allen Jr melee idle attack 8: -236534454
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_239: -1666598456
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_325: 385392480
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_344: -1955574424
       Drill instructor melee 5: -2102763563
@@ -6510,6 +6531,7 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_356: -110566625
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_369: 824720207
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_357: -813057512
+      dead projectile 3: -1889340376
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_74: 704225193
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_340: -1110170681
       Allen Jr jump 4: 1948104077
@@ -6521,7 +6543,6 @@ TextureImporter:
       Allen Jr reloading set 2 frame 6: 1953898072
       Allen Jr run 3: -249131669
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_3: -841791854
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_238: -987190640
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_280: -63008500
       Allen Jr death set 2 frame 6: -2101210411
       Allen Jr reloading set 1 frame 8: -2054067415
@@ -6546,6 +6567,7 @@ TextureImporter:
       Allen Jr melee death set 2 frame 9: 1421026798
       Allen Jr readyed 5: 290935317
       Allen Jr melee attack reuturn 2: -1496547240
+      projectile 2: -1249611116
       Allen Jr idle set 1 frame 2: 1940578097
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_347: 1231552923
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_80: -311557526
@@ -6573,7 +6595,6 @@ TextureImporter:
       Allen Jr melee run 1: -105647197
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_73: -1385603817
       Allen Jr reloading set 2 frame 10: -1112948521
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_236: -1094868310
       Allen Jr death set 1 frame 2: 329484432
       Allen Jr reloading set 1 frame 7: -1575870336
       Allen Jr readyed 3: 597890086
@@ -6603,12 +6624,12 @@ TextureImporter:
       Drill instructor shout 3: -1905490001
       Allen Jr melee attack 1: 1624146998
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_253: -1300559789
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_233: 1369629338
       Allen Jr melee idle set 2 frame 2: 170472615
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_223: 1365176278
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_363: 902978130
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_193: -355868990
       Allen Jr death set 1 frame 5: 899611667
+      powered projectile 1: -1094868310
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_323: 617264270
       Allen Jr reloading set 1 frame 5: -528023402
       Drill instructor rage 3: -1075126215
@@ -6622,7 +6643,6 @@ TextureImporter:
       Allen Jr melee idle 4: 1047334550
       Allen Jr run 7: -2147151290
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_87: -700313801
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_0: -1889340376
       Allen Jr shooting 4: -768663377
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_338: 1890799895
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_187: -385820481
@@ -6639,9 +6659,8 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_345: -567277901
       Allen Jr death set 1 frame 8: -1067266691
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_220: 6726728
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_232: -1249611116
-      Allen Jr melee death set 2 frame 8: -726454441
       Allen Jr melee run 6: -1716641777
+      Allen Jr melee death set 2 frame 8: -726454441
       Allen Jr idle set 2 frame 4: -279069406
       Allen Jr melee idle 6: -2091015693
       Allen Jr melee run 9: -1975406843
@@ -6671,6 +6690,7 @@ TextureImporter:
       Allen Jr melee idle attack 12: 291834634
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_260: 746731231
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_315: 622738694
+      dead projectile 1: -1605567759
       Allen Jr idle set 1 frame 6: -862395200
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_299: -1129780734
       Allen Jr melee idle set 2 frame 5: 1445164461
@@ -6711,6 +6731,7 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_367: 2047878000
       Allen Jr melee idle attack 2: -1129350197
       Drill instructor melee end 1: 930666909
+      dead projectile 2: -821093002
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_191: 1211523674
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_349: -1007011223
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_292: -505401992
@@ -6727,6 +6748,7 @@ TextureImporter:
       Allen Jr run 8: -416336175
       Allen Jr reloading set 2 frame 8: 1678610482
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_224: -1843719719
+      powered projectile 4: -1666598456
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_184: 2015436506
       Allen Jr idle set 2 frame 6: 844234698
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_8: -424641290
@@ -6740,10 +6762,8 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_346: -690493022
       Allen Jr readyed 4: 442819787
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_202: 1503797014
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_237: 1845863140
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_182: -1454379771
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_82: -1000450460
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_235: -821093002
       Drill instructor melee 4: 2061935312
       Allen Jr death set 1 frame 7: 1840019939
       Allen Jr shooting 2: 585651633
@@ -6751,26 +6771,25 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_61: 1149015281
       Allen Jr run 6: -1209079379
       Drill instructor rage 5: 482440585
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_231: 117916031
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_366: -1827178482
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_348: -516802341
       Allen Jr death set 2 frame 5: 1645146994
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_83: -509908770
       Allen Jr readyed 6: 966295927
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_298: -1109586926
+      projectile 4: 2017361258
       Allen Jr melee run 8: 2044368649
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_234: 2017361258
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_204: 1127057635
       Allen Jr reloading set 2 frame 13: 1667349921
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_359: -772753062
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_63: -1694479604
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_263: 216062929
-      Custom Edited - Metal Slug Customs - Allen Jr Expanded_240: -1605567759
       Allen Jr melee death set 2 frame 14: -890332693
       Allen Jr melee jump 4: 1856857204
       Allen Jr readyed 1: -316246269
       Allen Jr melee death set 2 frame 15: 159244287
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_249: -259397414
+      powered projectile 3: -987190640
       Drill instructor rage 2: -1112421540
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_209: 161741265
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_245: -1033570573
@@ -6798,6 +6817,7 @@ TextureImporter:
       Allen Jr melee attack reuturn 4: 943526385
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_206: 505243159
       Allen Jr melee death 2: -1198915868
+      projectile 3: 1369629338
       Allen Jr melee attack 4: 104718173
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_201: 234696961
       Allen Jr reloading set 2 frame 5: 634982038
@@ -6822,15 +6842,16 @@ TextureImporter:
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_327: 880785276
       Allen Jr shooting: 2089697863
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_62: 1686508284
-      Drill instructor melee end 2: -1528233153
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_66: -1681476730
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_343: 1675899455
+      Drill instructor melee end 2: -1528233153
+      Allen Jr melee idle attack 13: 797856068
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_371: 1310708258
+      Drill instructor rage 4: -1662697307
       Drill instructor point 2: -1206731552
       Allen Jr melee death set 2 frame 2: -317085235
-      Drill instructor rage 4: -1662697307
-      Allen Jr melee idle attack 13: 797856068
       Allen Jr shooting up 2: 668085401
+      projectile 1: 117916031
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_248: -1857348708
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_77: -928166535
       Custom Edited - Metal Slug Customs - Allen Jr Expanded_290: -1968338689

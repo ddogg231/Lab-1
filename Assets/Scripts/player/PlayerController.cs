@@ -58,9 +58,10 @@ public class PlayerController : MonoBehaviour
         AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
         float hinput = Input.GetAxisRaw("Horizontal");
         bool isShooting = Input.GetButtonDown("Fire1");
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
-        if(curPlayingClip.Length > 0)
+        if (curPlayingClip.Length > 0)
         {
             if (Input.GetButtonDown("Fire1") && curPlayingClip[0].clip.name != "Fire1")
             {
@@ -70,7 +71,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
             }
-            else 
+            else
             {
                 Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
                 rb.velocity = moveDirection;
@@ -83,20 +84,32 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
 
-        if(!isGrounded && Input.GetButtonDown("Jump"))
-        {
-            anim.SetTrigger("shooting up");
-        }
-       
-       // Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
-       // rb.velocity = moveDirection;
+        //if (!isGrounded && Input.GetButtonDown("Jump"))
+       // {
+       //     anim.SetTrigger("shooting up");
+        //}
+
+        // Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
+        // rb.velocity = moveDirection;
 
         anim.SetFloat("hinput", Mathf.Abs(hinput));
         anim.SetBool("isGrounded", isGrounded);
 
         //Check for flipped and create an algorithm to flip character
-            if (hinput > 0 && sr.flipX || hinput < 0 && !sr.flipX)
+        if (hinput > 0 && sr.flipX || hinput < 0 && !sr.flipX)
             sr.flipX = !sr.flipX;
-     
+
+        //transform.Rotate(0f, 180f, 0f);
+        if (isGrounded)
+            rb.gravityScale = 1;
+
+
     }
+
+    public void IncraseGravity()
+        {
+            rb.gravityScale = 3;
+        }
+
+
 }
