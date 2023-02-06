@@ -11,8 +11,8 @@ TagManager:
   - ground
   - Water
   - UI
-  - 
-  - 
+  - power up LR
+  - Bullet LR
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: PlayArea
     uniqueID: 351730169
+    locked: 0
+  - name: power up layer
+    uniqueID: 2393539153
     locked: 0
