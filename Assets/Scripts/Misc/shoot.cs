@@ -36,7 +36,7 @@ public class shoot : MonoBehaviour
         else
         {
             projectile curprojectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
-            curprojectile.speed = -projectilespeed ;
+            curprojectile.speed = -projectilespeed;
         }
     }
 }

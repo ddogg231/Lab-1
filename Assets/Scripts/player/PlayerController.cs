@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,37 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGroundLayer;
     public float groundCheckRadius;
     public float isShooting;
+    
+
+
+
+//Pickup updates
+
+    public int maxLives = 5;
+    private int _lives;
+
+    Coroutine jumpForceChange;
+    Coroutine SpeedChange;
+
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            //if {lives > value}
+            // we lost a life
+
+            _lives = value;
+
+            if (_lives > maxLives)
+                _lives = maxLives;
+
+            //if (_lives < 0)
+            // gameover we ded
+
+            Debug.Log("lives have been set to: " + _lives.ToString());
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -111,5 +143,55 @@ public class PlayerController : MonoBehaviour
             rb.gravityScale = 3;
         }
 
+    public void StartJumpForceChange()
+    {
+        if (jumpForceChange == null)
+        {
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+        else
+        {
+            StopCoroutine(jumpForceChange);
+            jumpForceChange = null;
+            jumpForce /= 2;
+            jumpForceChange = StartCoroutine(JumpForceChange());
+            
+        }
 
+    }
+
+    IEnumerator JumpForceChange()
+    {
+        jumpForce *= 2;
+        yield return new WaitForSeconds(5.0f);
+
+        jumpForce /= 2;
+        jumpForceChange = null;
+    }
+    
+    public void StartSpeedChange()
+    {
+        if (SpeedChange == null)
+        { 
+            SpeedChange = StartCoroutine(speedChange());
+            
+        }
+        else
+        {
+            StopCoroutine(SpeedChange);
+            SpeedChange = null;
+            speed /= 2;
+            SpeedChange = StartCoroutine(speedChange());
+        }
+
+    }
+
+    IEnumerator speedChange()
+    {
+        speed *= 2;
+        yield return new WaitForSeconds(15.0f);
+
+        speed /= 2;
+        SpeedChange = null;
+    }
 }
