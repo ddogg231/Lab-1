@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGroundLayer;
     public float groundCheckRadius;
     public float isShooting;
-    
+    public float isCrouch;
 
 
 
@@ -90,10 +90,12 @@ public class PlayerController : MonoBehaviour
         AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
         float hinput = Input.GetAxisRaw("Horizontal");
         bool isShooting = Input.GetButtonDown("Fire1");
+        // bool isCrouching = Input.GetButtonDown("Crouching");
+        bool crouch = false;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
 
-        if (curPlayingClip.Length > 0)
+       if (curPlayingClip.Length > 0)
         {
             if (Input.GetButtonDown("Fire1") && curPlayingClip[0].clip.name != "Fire1")
             {
@@ -108,12 +110,23 @@ public class PlayerController : MonoBehaviour
                 Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
                 rb.velocity = moveDirection;
             }
+            
         }
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
+        }
+
+        if(Input.GetButtonDown("Vertical"))
+        {
+            crouch = true;
+            
+        }
+        else if(Input.GetButtonUp("Vertical"))
+        {
+            crouch = false;
         }
 
         //if (!isGrounded && Input.GetButtonDown("Jump"))
@@ -135,6 +148,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
             rb.gravityScale = 1;
 
+            
 
     }
 
