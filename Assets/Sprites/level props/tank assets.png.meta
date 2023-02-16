@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: f4387817da2b019499c4843ce4ab286a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tank idle 1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 650
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eb17921b8ae3d409b0fb367a9a12f5
+      internalID: -1332919717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank idle 2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 650
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11264fdb908b584f920dc3089f6ed68
+      internalID: -646118665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank assets_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 265
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dbe390588e0d945a26fcbf018e9aa9
+      internalID: 1446459400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tank assets_55: 1974570168
+      tank assets_96: -1205835835
+      tank assets_117: -1930255789
+      tank assets_42: -1233771713
+      tank assets_125: -497278947
+      tank assets_148: -510861353
+      tank assets_11: -1230654626
+      tank assets_46: 481356878
+      tank assets_135: -274665789
+      tank assets_9: 875706607
+      tank assets_73: 219208271
+      tank assets_154: -1733044958
+      tank assets_7: 1707229678
+      tank assets_25: -529321728
+      tank assets_2: -1513561084
+      tank assets_36: 1221283897
+      tank assets_132: 755541491
+      tank assets_98: 1350347294
+      tank assets_116: -1282211888
+      tank assets_64: 1877260933
+      tank assets_102: -1310715941
+      tank assets_129: -1569694272
+      tank assets_134: -920290989
+      tank assets_158: -199279420
+      tank assets_106: -1048432887
+      tank assets_183: 2100576346
+      tank assets_33: 338981310
+      tank assets_174: -378043995
+      tank assets_53: 2075833379
+      tank assets_181: 1532284785
+      tank assets_170: -1313894627
+      tank assets_78: -242666177
+      tank assets_38: 2099945273
+      tank assets_141: 2130780090
+      tank assets_178: 498875444
+      tank assets_31: -817998844
+      tank assets_108: -1430960937
+      tank assets_13: 1069854612
+      tank assets_34: -1149496023
+      tank assets_28: 247566209
+      tank assets_147: 193703901
+      tank assets_127: 468051156
+      tank assets_139: -1447877478
+      tank assets_144: 1247733129
+      tank assets_123: -1769047335
+      tank assets_32: -592885536
+      tank assets_118: 105745993
+      tank assets_47: 287886509
+      tank assets_26: 358799512
+      tank assets_82: -1272481372
+      tank assets_79: -1698425750
+      tank assets_142: 1924562971
+      tank assets_56: -2021028805
+      tank assets_80: 1223815695
+      tank assets_101: 1733459729
+      tank assets_151: 1515730655
+      tank assets_5: 1832231731
+      tank assets_89: 1913464453
+      tank assets_18: -2127824012
+      tank assets_153: 1924055680
+      tank assets_51: -1841998242
+      tank assets_52: 1901102730
+      tank assets_45: -1818733582
+      tank assets_19: -999646175
+      tank assets_59: -74098691
+      tank assets_50: -259887214
+      tank assets_76: 1446459400
+      tank assets_173: -1167992706
+      tank assets_97: 589351584
+      tank assets_168: -1780632149
+      tank assets_176: 724801324
+      tank assets_164: -664745804
+      tank assets_69: 1131582776
+      tank assets_112: 428778550
+      tank assets_23: 1455856771
+      tank assets_131: 324075569
+      tank assets_180: 1578088764
+      tank assets_1: 1099610313
+      tank assets_75: 1177159009
+      tank assets_171: 1142568806
+      tank assets_152: 929038099
+      tank assets_110: -789011305
+      tank assets_95: 1918194064
+      tank assets_14: -1482536787
+      tank assets_92: 1765961954
+      tank assets_143: -1650866929
+      tank assets_107: 2116662954
+      tank assets_44: 1879514990
+      tank assets_87: 1584175801
+      tank assets_182: 1366765189
+      tank assets_138: 1319698655
+      tank idle 2: -646118665
+      tank assets_149: -1927788923
+      tank assets_156: -1338827240
+      tank assets_68: 1989310976
+      tank assets_72: -916130610
+      tank assets_62: -1690397742
+      tank assets_140: 1730655526
+      tank assets_43: 987825533
+      tank idle 1: -1332919717
+      tank assets_120: -883503854
+      tank assets_155: 1078543691
+      tank assets_49: 1690057637
+      tank assets_27: -1843217787
+      tank assets_83: 540175363
+      tank assets_88: -1439639201
+      tank assets_136: -351095777
+      tank assets_24: 656294745
+      tank assets_157: 841017301
+      tank assets_121: -210601241
+      tank assets_167: 1929466484
+      tank assets_161: -726342319
+      tank assets_160: -180693612
+      tank assets_65: -1590294337
+      tank assets_54: 873929759
+      tank assets_103: 1018713440
+      tank assets_93: -722449399
+      tank assets_22: 267537336
+      tank assets_6: 1254037372
+      tank assets_60: -1311223646
+      tank assets_119: 379299991
+      tank assets_137: 534254412
+      tank assets_145: 357564609
+      tank assets_177: -1236348052
+      tank assets_17: 1887176395
+      tank assets_162: 540696706
+      tank assets_109: 551024809
+      tank assets_66: -2102488458
+      tank assets_86: 1441785008
+      tank assets_124: 1690560228
+      tank assets_133: -1257200795
+      tank assets_172: 1053810629
+      tank assets_114: 11404091
+      tank assets_29: 1886224327
+      tank assets_179: 1488635794
+      tank assets_113: 822759787
+      tank assets_122: -1835019166
+      tank assets_67: 849522031
+      tank assets_163: 2087996064
+      tank assets_74: -2141156646
+      tank assets_169: -1062390436
+      tank assets_175: -1947048172
+      tank assets_35: 936737562
+      tank assets_100: -1313669510
+      tank assets_15: -1768895361
+      tank assets_10: -1178610007
+      tank assets_90: -1811402105
+      tank assets_104: 903460501
+      tank assets_12: -1489326848
+      tank assets_20: -1517109713
+      tank assets_70: -1145008386
+      tank assets_111: -1075464005
+      tank assets_84: 353069375
+      tank assets_105: 310081906
+      tank assets_146: -525189827
+      tank assets_81: 581134712
+      tank assets_126: 722828799
+      tank assets_166: 796576869
+      tank assets_115: -1313680481
+      tank assets_159: -197220035
+      tank assets_57: 620352188
+      tank assets_71: -2116589021
+      tank assets_40: -1767873966
+      tank assets_94: 982032546
+      tank assets_16: 1819113865
+      tank assets_8: 899582494
+      tank assets_39: 1452412108
+      tank assets_61: 2118199178
+      tank assets_165: 489464941
+      tank assets_41: -556501051
+      tank assets_130: 644894416
+      tank assets_85: 305469918
+      tank assets_128: 1742986148
+      tank assets_91: -195374605
+      tank assets_0: 1847423053
+      tank assets_37: -115272546
+      tank assets_184: -333205852
+      tank assets_99: 1536433204
+      tank assets_63: -2057153969
+      tank assets_48: -585656741
+      tank assets_21: -472908291
+      tank assets_150: -125379537
+      tank assets_30: 676637917
+      tank assets_58: -451487827
+      tank assets_77: 748649567
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

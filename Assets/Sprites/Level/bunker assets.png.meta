@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: dac7f208979c1874a9a31bc7058c7d87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunker assets_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 673
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005c76fd0b5199a44a263d1884e09f3a
+      internalID: 63639052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunker assets_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 417
+        width: 528
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5246855caf02542852e299365ed9c2
+      internalID: -1786385164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunker
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 347
+        width: 256
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d58f9d92725374081012dd7ab3c5f4
+      internalID: -1910251087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunker step
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 348
+        width: 200
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e483ddd81d4ea45bcc63fa2e5f4787
+      internalID: -48347877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunker main bk
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 347
+        width: 512
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78ea8201e1c754e94ab57759417fa5
+      internalID: 2006590288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunker assets_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 310
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f359031526616469496ed2929d4bc0
+      internalID: 89036328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bunker assets_109: 1588471376
+      bunker assets_17: 2049467270
+      bunker assets_52: 1106797237
+      bunker assets_48: 247001258
+      bunker assets_22: -711515437
+      bunker assets_70: -1806181874
+      bunker assets_9: -1370559820
+      bunker assets_62: 1834997686
+      bunker assets_104: 226857637
+      bunker assets_30: 1324064339
+      bunker assets_102: -471924954
+      bunker assets_63: 1371896272
+      bunker assets_107: 1343571782
+      bunker assets_31: -1786385164
+      bunker assets_73: -199529261
+      bunker assets_38: -748531512
+      bunker assets_106: 1036853941
+      bunker assets_20: -1010099142
+      bunker assets_40: 1375656077
+      bunker assets_18: -330198894
+      bunker assets_41: 1599193016
+      bunker assets_24: -1145092400
+      bunker assets_82: 2136478960
+      bunker assets_51: 47788073
+      bunker assets_23: -667859028
+      bunker assets_91: -513549096
+      bunker assets_13: -743095403
+      bunker assets_16: -2073355295
+      bunker assets_10: 936981632
+      bunker assets_26: -1597548518
+      bunker assets_66: 760148131
+      bunker assets_7: 419082222
+      bunker assets_11: -745909487
+      bunker assets_84: -872035898
+      bunker assets_19: -1291736072
+      bunker assets_108: 1825798410
+      bunker assets_45: 1728743586
+      bunker assets_74: 1240875284
+      bunker assets_6: 1192877349
+      bunker assets_67: 791295301
+      bunker assets_59: 1285622313
+      bunker assets_3: -1434062286
+      bunker assets_92: -166582887
+      bunker assets_90: -2082703231
+      bunker assets_60: -1187285403
+      bunker assets_58: -1597547285
+      bunker assets_2: -1570847313
+      bunker assets_44: 1175651368
+      bunker assets_72: 851582980
+      bunker assets_36: -1801598339
+      bunker assets_79: -1756440753
+      bunker assets_71: -126869821
+      bunker assets_89: -1194241465
+      bunker assets_5: -1963850889
+      bunker assets_97: 44409694
+      bunker assets_29: 1573576566
+      bunker assets_93: 1047464627
+      bunker assets_85: 1996612364
+      bunker assets_27: -1272054922
+      bunker assets_12: 914358422
+      bunker assets_21: -1499102316
+      bunker assets_78: -1647270647
+      bunker assets_15: -1033175601
+      bunker assets_94: -570996753
+      bunker assets_95: 2102797926
+      bunker assets_100: -350931928
+      bunker assets_101: -526518518
+      bunker assets_1: 89036328
+      bunker assets_35: -1599694575
+      bunker assets_83: 2061683311
+      bunker assets_42: -29487958
+      bunker assets_46: -1748585970
+      bunker step: -48347877
+      bunker assets_64: -1931162893
+      bunker assets_47: -748787000
+      bunker assets_61: 276445911
+      bunker assets_55: 1744741434
+      bunker assets_99: -269232254
+      bunker assets_37: 952265306
+      bunker assets_57: -525130576
+      bunker assets_68: -396676512
+      bunker assets_80: 644530920
+      bunker assets_4: 1043574407
+      bunker assets_28: 1513286429
+      bunker assets_103: -474849036
+      bunker assets_56: -1919754714
+      bunker assets_14: 91570867
+      bunker assets_81: 610398163
+      bunker assets_88: 430113152
+      bunker assets_96: -1962372866
+      bunker assets_43: -1450027438
+      bunker assets_86: -1534125966
+      bunker assets_75: -1156525021
+      bunker assets_8: 1929988930
+      bunker assets_69: -480179399
+      bunker assets_76: 371400662
+      bunker assets_53: 325521337
+      bunker assets_49: 979398289
+      bunker assets_87: 1901127175
+      bunker assets_65: -1355546815
+      bunker assets_77: 2108046038
+      bunker main bk: 2006590288
+      bunker assets_0: 63639052
+      bunker assets_98: -2053819943
+      bunker assets_50: 98938236
+      bunker assets_105: -1508038794
+      bunker assets_39: -1792923513
+      bunker: -1910251087
+      bunker assets_25: 774182575
+      bunker assets_54: -1824110317
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

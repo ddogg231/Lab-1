@@ -90,11 +90,10 @@ public class PlayerController : MonoBehaviour
         AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
         float hinput = Input.GetAxisRaw("Horizontal");
         bool isShooting = Input.GetButtonDown("Fire1");
-        // bool isCrouching = Input.GetButtonDown("Crouching");
-        bool crouch = false;
+        bool isCrouch = Input.GetButtonDown("Crouching");
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
-
+        //set player shooting anim and stop movement while shooting 
        if (curPlayingClip.Length > 0)
         {
             if (Input.GetButtonDown("Fire1") && curPlayingClip[0].clip.name != "Fire1")
@@ -112,31 +111,40 @@ public class PlayerController : MonoBehaviour
             }
             
         }
-
+       //player jump
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
         }
+        //set player to crouch and stop movement if crouched
+        /* i got the code to work with two inputs but i can figure out how to
+         * get it to leave crouch when its not pressed*/
 
-        if(Input.GetButtonDown("Vertical"))
+
+        if (curPlayingClip.Length > 0)
         {
-            crouch = true;
-            
+            if (Input.GetButtonDown("Crouching") && curPlayingClip[0].clip.name != "Crouching")
+            {
+                anim.SetTrigger("isCrouch");
+                
+                
+            }
+            else if ((curPlayingClip[0].clip.name == "Crouching"))
+            {
+                rb.velocity = Vector2.zero;
+                isCrouch = false;
+            }
+            else if (Input.GetButtonUp("Crouching"))
+            {
+                
+                Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
+                rb.velocity = moveDirection;
+            }
         }
-        else if(Input.GetButtonUp("Vertical"))
-        {
-            crouch = false;
-        }
 
-        //if (!isGrounded && Input.GetButtonDown("Jump"))
-       // {
-       //     anim.SetTrigger("shooting up");
-        //}
 
-        // Vector2 moveDirection = new Vector2(hinput * speed, rb.velocity.y);
-        // rb.velocity = moveDirection;
-
+        //player Horizontal movement
         anim.SetFloat("hinput", Mathf.Abs(hinput));
         anim.SetBool("isGrounded", isGrounded);
 
@@ -156,7 +164,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.gravityScale = 3;
         }
-
+    //jump power up change
     public void StartJumpForceChange()
     {
         if (jumpForceChange == null)
@@ -182,7 +190,7 @@ public class PlayerController : MonoBehaviour
         jumpForce /= 2;
         jumpForceChange = null;
     }
-    
+    //speed power up change
     public void StartSpeedChange()
     {
         if (SpeedChange == null)
