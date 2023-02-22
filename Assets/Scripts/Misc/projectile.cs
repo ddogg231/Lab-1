@@ -20,7 +20,14 @@ public class projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("wall"))
         Destroy(gameObject);
+        
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
+            Destroy(gameObject);
+        }
     }
 
     /* for damage when we get to it 

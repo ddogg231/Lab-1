@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-[RequireComponent(typeof(PlayerController))]
+
 public class shoot : MonoBehaviour
 {
     SpriteRenderer sr;
 
+    public UnityEvent onProjectileSpawned;
     public float projectilespeed;
     public Transform spawnPointRight;
     public Transform spawnPointLeft;
@@ -26,7 +28,7 @@ public class shoot : MonoBehaviour
    
     public void fire()
     {
-        //something wrong for lab
+        
        
         if (!sr.flipX)
         {
@@ -38,5 +40,6 @@ public class shoot : MonoBehaviour
             projectile curprojectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
             curprojectile.speed = -projectilespeed;
         }
+        onProjectileSpawned?.Invoke();
     }
 }
