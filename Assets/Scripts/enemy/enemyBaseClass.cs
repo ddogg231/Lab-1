@@ -41,7 +41,7 @@ public class enemyBaseClass : MonoBehaviour
 
 
 
-    public virtual void TakeDamage(int damage)
+   /* public virtual void TakeDamage(int damage)
     {
         heath -= damage;
     }
@@ -50,8 +50,10 @@ public class enemyBaseClass : MonoBehaviour
         {
         anim.SetTrigger("death");
         }
-    public void Destroyself()
+        public void Destroyself()
     {
         Destroy(gameObject.transform.parent.gameObject.transform.parent);
-    }
+    }*/
+
+  
 }

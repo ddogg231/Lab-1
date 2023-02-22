@@ -8,6 +8,8 @@ public class japansesetroop : enemyBaseClass
 {
     Rigidbody2D rb;
     public float speed;
+    public float minDist = 1f;
+    public Transform player;
     public override void Start()
     {
         base.Start();

@@ -20,12 +20,12 @@ public class projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("wall"))
+        if(collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("wall"))
         Destroy(gameObject);
         
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
+            //collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
             Destroy(gameObject);
         }
     }

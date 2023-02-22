@@ -7,7 +7,7 @@ using UnityEngine;
 {
     private Transform player;
     private float range;
-    public float howClose;
+    public float minDist;
     public float projectileFireRate;
     float timeSinceLastFire;
     shoot shootScript;
@@ -16,42 +16,45 @@ using UnityEngine;
     {
         base.Start();
 
-        shootScript = GetComponent<shoot>();
-        shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+       // shootScript = GetComponent<shoot>();
+       // shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
+        if (GameObject.FindWithTag("Player") != null)
+        {
+            player = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        }
     }
-
 
     private void Update()
     {
-        AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
+
+        /*AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
 
         if (curClips[0].clip.name != "shooting")
         {
             if (Time.time >= timeSinceLastFire + projectileFireRate)
             {
-                anim.SetTrigger("shooting");
+                anim.SetTrigger("fire");
             }
-        }
-        range = Vector3.Distance(player.position, transform.position);
-        
-        if (range <= howClose)
-        {
-            transform.LookAt(player);
-            
-        }
-        if (range <= 5f)
-        {
-            anim.SetTrigger("shooting");
-        }    
-    }
-    private void OnDisable()
-    {
-        shootScript.onProjectileSpawned.RemoveListener(UpdateTimeSinceLastFire);
-    }
-    // Update is called once per frame
-    void UpdateTimeSinceLastFire()
-    {
-        timeSinceLastFire = Time.time;
+        }*/
+
+
+        transform.LookAt(player);
+
+
+
+        /*  if (range <= 5f)
+          {
+              anim.SetTrigger("fire");
+          }    
+      }
+      private void OnDisable()
+      {
+          shootScript.onProjectileSpawned.RemoveListener(UpdateTimeSinceLastFire);
+      }
+      // Update is called once per frame
+      void UpdateTimeSinceLastFire()
+      {
+          timeSinceLastFire = Time.time;
+      }*/
     }
 }
