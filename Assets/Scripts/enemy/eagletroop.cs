@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(shoot))]
     public class eagletroop : enemyBaseClass
 {
+    private Transform player;
+    private float range;
+    public float howClose;
     public float projectileFireRate;
     float timeSinceLastFire;
     shoot shootScript;
@@ -15,6 +18,7 @@ using UnityEngine;
 
         shootScript = GetComponent<shoot>();
         shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
+        player = GameObject.FindGameObjectWithTag("player").transform;
     }
 
 
@@ -29,6 +33,17 @@ using UnityEngine;
                 anim.SetTrigger("shooting");
             }
         }
+        range = Vector3.Distance(player.position, transform.position);
+        
+        if (range <= howClose)
+        {
+            transform.LookAt(player);
+            
+        }
+        if (range <= 5f)
+        {
+            anim.SetTrigger("shooting");
+        }    
     }
     private void OnDisable()
     {
