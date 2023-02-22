@@ -18,7 +18,7 @@ using UnityEngine;
 
         shootScript = GetComponent<shoot>();
         shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
-        player = GameObject.FindGameObjectWithTag("player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
 
@@ -26,7 +26,7 @@ using UnityEngine;
     {
         AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
 
-        if (curClips[0].clip.name !="shooting");
+        if (curClips[0].clip.name != "shooting")
         {
             if (Time.time >= timeSinceLastFire + projectileFireRate)
             {

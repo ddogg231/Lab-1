@@ -11,8 +11,11 @@ GameObject:
   - component: {fileID: 8242771558871248425}
   - component: {fileID: 8242771558871248426}
   - component: {fileID: 8242771558871248427}
+  - component: {fileID: 5606744584996111189}
   - component: {fileID: 8242771558871248428}
   - component: {fileID: 8242771558871248429}
+  - component: {fileID: 975826064}
+  - component: {fileID: 975826063}
   m_Layer: 0
   m_Name: Idle Ealge 1ak
   m_TagString: Enemy
@@ -109,6 +112,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!61 &5606744584996111189
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242771558871248430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.205}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.49, y: 0.41}
+    newSize: {x: 0.49, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.49, y: 0.41}
+  m_EdgeRadius: 0
 --- !u!50 &8242771558871248428
 Rigidbody2D:
   serializedVersion: 4
@@ -129,7 +158,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &8242771558871248429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,11 +173,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onProjectileSpawned:
     m_PersistentCalls:
-      m_Calls: []
-  projectilespeed: 0
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  projectilespeed: 6
   spawnPointRight: {fileID: 8242771559488306408}
   spawnPointLeft: {fileID: 8242771559093374617}
   projectilePrefab: {fileID: 8896699403067002070, guid: a5e8a4e12bc148941bb6033e50cc0d48, type: 3}
+--- !u!61 &975826064
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242771558871248430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.205}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.49, y: 0.41}
+    newSize: {x: 0.49, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.49, y: 0.41}
+  m_EdgeRadius: 0
+--- !u!114 &975826063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8242771558871248430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcf6fd451d495740a25c44fab6613f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHeath: 6
+  howClose: 150
+  projectileFireRate: 2
 --- !u!1 &8242771559093374618
 GameObject:
   m_ObjectHideFlags: 0
