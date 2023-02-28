@@ -28,8 +28,8 @@ public class enemyBaseClass : MonoBehaviour
         if (maxHeath <= 0)
             maxHeath = 5;
         heath = maxHeath;
-        Init();
-        MoveToNextPoint();
+      //  Init();
+      //  MoveToNextPoint();
 
         if (groundCheckRadius <= 0)
         {
@@ -65,7 +65,7 @@ public class enemyBaseClass : MonoBehaviour
     }
     void Init()
     {
-        GetComponent<BoxCollider2D>().isTrigger = true;
+       
         GameObject root = new GameObject(name + "_root");
         root.transform.position = transform.position;
         transform.SetParent(root.transform);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 770374226007670937}
   - component: {fileID: 5147541087535448135}
   - component: {fileID: 2927451298685137399}
-  - component: {fileID: 1827843239819338666}
+  - component: {fileID: -2643406739973825047}
   m_Layer: 0
   m_Name: powered projectile 1
   m_TagString: Untagged
@@ -118,13 +118,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.1}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &1827843239819338666
+--- !u!114 &-2643406739973825047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,8 +133,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4159745026463866913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43ef4db8b1395ad47b9ee174843d9b30, type: 3}
+  m_Script: {fileID: 11500000, guid: cddf27f3116d8a749bbf30990b7ed8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 6
+  lifetime: 0
   speed: 0

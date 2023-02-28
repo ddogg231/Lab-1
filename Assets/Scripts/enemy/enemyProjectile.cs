@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class projectile : MonoBehaviour
+public class enemyProjectile : MonoBehaviour
 {
     public float lifetime;
 
@@ -20,15 +20,22 @@ public class projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("wall"))
-        Destroy(gameObject);
-        
-        if(collision.gameObject.CompareTag("Enemy"))
-        {
-            collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
+        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("wall") || (collision.gameObject.CompareTag("Player")))
             Destroy(gameObject);
-        }
+
+             
+        
     }
 
+    //for damage when we get to it 
+    /* private void OnCollisionEnter2D(Collision2D collision)
+     {
+         if (collision.gameObject.tag == "Enemy")
+         {
+             collision.gameObject.SendMessage("ApplyDamage", 10)
+            Destroy(gameObject);
+         }
+     }*/
 
 }
+

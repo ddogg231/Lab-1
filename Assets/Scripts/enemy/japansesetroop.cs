@@ -10,8 +10,8 @@ public class japansesetroop : enemyBaseClass
     public override void Start()
     {
         base.Start();
-        
 
+        rb = GetComponent<Rigidbody2D>();
         if (speed <= 0)
             speed = 1.5f;
     }
@@ -21,15 +21,15 @@ public class japansesetroop : enemyBaseClass
     void Update()
     {
         AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
-        if (curClips[0].clip.name == "walk")
+        if (curClips[0].clip.name == "running")
         {
             if(sr.flipX)
             {
-                rb.velocity = new Vector2(-speed, rb.velocity.y);
+                rb.velocity = new Vector2(speed, rb.velocity.y);
             }
             else
             {
-                rb.velocity = new Vector2(speed, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
             }
         }
      }

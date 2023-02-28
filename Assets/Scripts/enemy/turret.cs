@@ -2,26 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(shoot))]
+
 public class turret : MonoBehaviour
 {
     public float projectileFireRate;
     float timeSinceLastFire;
-    shoot shootScript;
+    enemyshoot shootScript;
     
     Animator anim;
     SpriteRenderer sr;
     public float range;
+    public float minDistance;
     public Transform Target;
-    bool Detected = false;
+    
     public GameObject player;
-    private bool flip;
+    
 
     void Start()
     {
-        
-
-        shootScript = GetComponent<shoot>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+        shootScript = GetComponent<enemyshoot>();
         shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
         
 
@@ -30,28 +31,31 @@ public class turret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 scale = transform.localScale;
+        float range = GameObject.FindGameObjectWithTag("Player").transform.position.x - gameObject.transform.position.x;
+        Debug.Log(range);
+        Debug.Log("test");
 
-        if(player.transform.position.x > transform.position.x)
+        if (range < minDistance && range > -minDistance)
         {
-            scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);   
-        }
-        else
-        {
-            scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
-        }
+           if (GameObject.FindGameObjectWithTag("Player").transform.position.x > transform.position.x)
+            {
+                sr.flipX = true;
+            }
+            else
+                sr.flipX = false;
 
+        }
         AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
 
         if (curClips[0].clip.name != "shooting")
-        {
+            {
+
             if (Time.time >= timeSinceLastFire + projectileFireRate)
             {
-               anim.SetTrigger("fire");
+                anim.SetTrigger("fire");
             }
         }
-        
-    }
+     }
 
       
     private void OnDisable()
