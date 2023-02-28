@@ -35,26 +35,28 @@ public class turret : MonoBehaviour
         Debug.Log(range);
         Debug.Log("test");
 
+        AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
         if (range < minDistance && range > -minDistance)
         {
-           if (GameObject.FindGameObjectWithTag("Player").transform.position.x > transform.position.x)
+           
+             if (Time.time >= timeSinceLastFire + projectileFireRate)
+                   {
+                        anim.SetTrigger("fire");
+                   }
+            if (GameObject.FindGameObjectWithTag("Player").transform.position.x > transform.position.x)
             {
+                   
                 sr.flipX = true;
             }
             else
-                sr.flipX = false;
-
+             sr.flipX = false;
+            
+            
+            
         }
-        AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
+        
 
-        if (curClips[0].clip.name != "shooting")
-            {
-
-            if (Time.time >= timeSinceLastFire + projectileFireRate)
-            {
-                anim.SetTrigger("fire");
-            }
-        }
+        
      }
 
       
