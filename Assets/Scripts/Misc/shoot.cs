@@ -14,6 +14,9 @@ public class shoot : MonoBehaviour
     public Transform spawnPointLeft;
 
     public projectile projectilePrefab;
+
+    public object OnProjectileSpawned { get; internal set; }
+
     // Start is called before the first frame update
     void Start()
     {

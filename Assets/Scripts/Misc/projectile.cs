@@ -25,17 +25,17 @@ public class projectile : MonoBehaviour
         
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            //collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
-            Destroy(gameObject);
+            collision.gameObject.GetComponent<japansesetroop>().TakeDamage(1);
+           // Destroy(gameObject);
         }
     }
 
-    /* for damage when we get to it 
-     private void OnCollisionEnter2D(Collision2D collision)
+     //for damage when we get to it 
+    /* private void OnCollisionEnter2D(Collision2D collision)
      {
          if (collision.gameObject.tag == "Enemy")
          {
-             collision.gameObject.SendMessage("ApplyDamage", 10):
+             collision.gameObject.SendMessage("ApplyDamage", 10)
             Destroy(gameObject);
          }
      }*/

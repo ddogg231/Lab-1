@@ -113,7 +113,7 @@ TextureImporter:
         width: 61
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,7 +134,7 @@ TextureImporter:
         width: 61
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,7 +155,7 @@ TextureImporter:
         width: 16
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,6 +163,69 @@ TextureImporter:
       bones: []
       spriteID: 46dbe390588e0d945a26fcbf018e9aa9
       internalID: 1446459400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank hull
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 27
+        width: 61
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e84adbf6df78b4d900df3321b9a035
+      internalID: 873815644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank turret
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 56
+        width: 30
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed849005802bae4bbc15ad3f535da2e
+      internalID: 644757390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank gun
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 57
+        width: 46
+        height: 11
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd76971601ebf845b265ca565aaa626
+      internalID: 1151271312
       vertices: []
       indices: 
       edges: []
@@ -202,9 +265,9 @@ TextureImporter:
       tank assets_129: -1569694272
       tank assets_134: -920290989
       tank assets_158: -199279420
+      tank assets_33: 338981310
       tank assets_106: -1048432887
       tank assets_183: 2100576346
-      tank assets_33: 338981310
       tank assets_174: -378043995
       tank assets_53: 2075833379
       tank assets_181: 1532284785
@@ -278,6 +341,7 @@ TextureImporter:
       tank assets_140: 1730655526
       tank assets_43: 987825533
       tank idle 1: -1332919717
+      tank hull: 1847423053
       tank assets_120: -883503854
       tank assets_155: 1078543691
       tank assets_49: 1690057637
@@ -296,6 +360,7 @@ TextureImporter:
       tank assets_103: 1018713440
       tank assets_93: -722449399
       tank assets_22: 267537336
+      tank gun: 1151271312
       tank assets_6: 1254037372
       tank assets_60: -1311223646
       tank assets_119: 379299991
@@ -329,6 +394,7 @@ TextureImporter:
       tank assets_12: -1489326848
       tank assets_20: -1517109713
       tank assets_70: -1145008386
+      tank turret: 644757390
       tank assets_111: -1075464005
       tank assets_84: 353069375
       tank assets_105: 310081906
@@ -352,7 +418,6 @@ TextureImporter:
       tank assets_85: 305469918
       tank assets_128: 1742986148
       tank assets_91: -195374605
-      tank assets_0: 1847423053
       tank assets_37: -115272546
       tank assets_184: -333205852
       tank assets_99: 1536433204

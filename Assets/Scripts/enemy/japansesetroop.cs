@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class japansesetroop : enemyBaseClass
 {
-    Rigidbody2D rb;
-    public float speed;
-    public float minDist = 1f;
-    public Transform player;
+
     public override void Start()
     {
         base.Start();
-        rb = GetComponent<Rigidbody2D>();
+        
 
         if (speed <= 0)
             speed = 1.5f;
