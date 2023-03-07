@@ -14,9 +14,34 @@ public class GameManager : MonoBehaviour
         
     }
 
-    
+    public int maxLives = 5;
+    private int _lives = 3;
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            if (_lives > value)
+                Respawn();
 
-     
+            _lives = value;
+
+            if (_lives > maxLives)
+                _lives = maxLives;
+
+            //if (_lives < 0)
+            //gameover
+
+            Debug.Log("Lives have been set to: " + _lives.ToString());
+        }
+    }
+
+    public PlayerController playerPrefab;
+    [HideInInspector] public PlayerController playerInstance = null;
+    [HideInInspector] public Level currentLevel = null;
+    [HideInInspector] public Transform currentSpawnPoint;
+
+
 
     private void Awake()
     {
@@ -26,11 +51,24 @@ public class GameManager : MonoBehaviour
             return;
         }
         _instance = this;
+        DontDestroyOnLoad(gameObject);
     }
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
 
+        lives = maxLives;
+    }
+
+    public void SpawnPlayer(Transform spawnPoint)
+    {
+        playerInstance = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
+        currentSpawnPoint = spawnPoint;
+    }
+
+    void Respawn()
+    {
+        if (playerInstance)
+            playerInstance.transform.position = currentSpawnPoint.position;
     }
 
     // Update is called once per frame
@@ -40,9 +78,25 @@ public class GameManager : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().buildIndex == 0)
                 SceneManager.LoadScene(1);
+            
 
             else
                 SceneManager.LoadScene(0);
         }
+
+        if (Input.GetKeyDown(KeyCode.K))
+            lives--;
+
+        if (lives <= 0)
+        {
+            
+            SceneManager.LoadScene(2);
+        }
+        
+    }
+
+    public void UpdateCheckpoint(Transform spawnPoint)
+    {
+        currentSpawnPoint = spawnPoint;
     }
 }

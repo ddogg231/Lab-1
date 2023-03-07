@@ -902,6 +902,258 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1745
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a41930e0338ef4eaf6d30f4da63eb2
+      internalID: 1800958593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1745
+        width: 44
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fe3263ccdb7834ba1ae25946c7cfdc
+      internalID: -221898196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1745
+        width: 47
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c295b71aa2d4e848b52e4694e579c25
+      internalID: 528675045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1745
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160326fab1cde2498a9b8fc142ac622
+      internalID: -177581820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1745
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0056b19f392824cad335bb915a7d7a
+      internalID: -1147936168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1745
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b04a706c14514c88dd5fe35a270c7
+      internalID: 1692893246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1745
+        width: 73
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d978083216fc04c969a31f1c876f24
+      internalID: 1465914157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1745
+        width: 39
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83212b57d861ed489d462625e64ff6d
+      internalID: 1355132686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1745
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6923e189750d2543b12e426b064f561
+      internalID: -65311828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 10
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1745
+        width: 39
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963084e61179e42429473d079af99427
+      internalID: -1009732473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1745
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd607bf9ead0524aa6def2c80fa8cbe
+      internalID: -385804308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Japanese Soldier attack 12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1745
+        width: 42
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ffb2ad1bbfe741af82ced565dc869
+      internalID: -1702689374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -915,41 +1167,53 @@ TextureImporter:
     nameFileIdTable:
       Japanese Soldier idle 3: -721664901
       Japanese Soldier death 11: 941562326
-      Japanese Soldier death 17: -1808705835
       Japanese Soldier death 15: -300170828
+      Japanese Soldier running 7: 1848629137
+      Japanese Soldier idle 6: 1440099569
+      Japanese Soldier attack 9: -65311828
+      Japanese Soldier running 12: -835370051
+      Japanese Soldier attack 4: -177581820
+      Japanese Soldier attack 2: -221898196
+      Japanese Soldier running 2: 921867812
+      Japanese Soldier running 10: 1128471712
+      Japanese Soldier death 9: -1312890952
+      Japanese Soldier death 20: 994209424
+      Japanese Soldier idle 1: -1157253350
+      Japanese Soldier death 8: -1339293212
+      Japanese Soldier attack 8: 1355132686
+      Japanese Soldier running 11: 1765305226
+      Japanese Soldier attack 11: -385804308
+      Japanese Soldier attack 12: -1702689374
+      Japanese Soldier attack 1: 1800958593
+      Japanese Soldier running 8: 394046669
+      Japanese Soldier death: -1390292201
+      Japanese Soldier death 18: -768710123
+      Japanese Soldier idle 5: -157131990
+      Japanese Soldier death 10: -2084438527
+      Japanese Soldier death 14: -1474290771
+      Japanese Soldier death 17: -1808705835
       Japanese Soldier running 4: -1854896758
       Japanese Soldier running 6: 1079223801
       Japanese Soldier death 6: 21993347
       Japanese Soldier death 13: 1894384880
-      Japanese Soldier running 7: 1848629137
       Japanese Soldier death 5: 551218628
-      Japanese Soldier idle 6: 1440099569
+      Japanese Soldier attack 6: 1692893246
       Japanese Soldier death 7: 126241666
+      Japanese Soldier attack 3: 528675045
       Japanese Soldier running 13: 120139406
+      Japanese Soldier attack 5: -1147936168
       Japanese Soldier idle 4: -105798754
-      Japanese Soldier running 12: -835370051
-      Japanese Soldier running 2: 921867812
-      Japanese Soldier running 10: 1128471712
-      Japanese Soldier death 9: -1312890952
+      Japanese Soldier attack 7: 1465914157
       Japanese Soldier death 16: 2137702503
-      Japanese Soldier death 20: 994209424
-      Japanese Soldier idle 1: -1157253350
-      Japanese Soldier death 8: -1339293212
       Japanese Soldier death 3: 1611559494
       Japanese Soldier death 19: -1394381580
       Japanese Soldier death 4: 1191952542
-      Japanese Soldier running 11: 1765305226
       Japanese Soldier running 3: -1363466441
       Japanese Soldier idle 2: 2028631189
       Japanese Soldier running: 895773312
       Japanese Soldier running 5: -1737398184
-      Japanese Soldier running 8: 394046669
-      Japanese Soldier death: -1390292201
-      Japanese Soldier idle 5: -157131990
-      Japanese Soldier death 10: -2084438527
       Japanese Soldier death 2: 792436550
-      Japanese Soldier death 14: -1474290771
-      Japanese Soldier death 18: -768710123
+      Japanese Soldier attack 10: -1009732473
       Japanese Soldier death 12: 866333711
   spritePackingTag: 
   pSDRemoveMatte: 0
