@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         get => _instance;
         
     }
-
+    bool gameOverLoaded = false;
     public int maxLives = 5;
     private int _lives = 3;
     public int lives
@@ -93,12 +93,13 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
             lives--;
 
-        if (lives <= 0)
+
+        if (lives <= 0 && !gameOverLoaded)
         {
-            
             SceneManager.LoadScene(2);
+            gameOverLoaded = true;
         }
-        
+
     }
 
     public void UpdateCheckpoint(Transform spawnPoint)

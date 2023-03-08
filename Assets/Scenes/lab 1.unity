@@ -2880,7 +2880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileFireRate: 6
   range: 6
-  minDistance: 6
+  minDistance: 5
   Target: {fileID: 3691773032133021105, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
   player: {fileID: 3691773032133021112, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
 --- !u!95 &1963606570
@@ -3366,6 +3366,10 @@ PrefabInstance:
     - target: {fileID: 5202117786900885069, guid: 37a3da7561aae644ca3b416b4cbdf109, type: 3}
       propertyPath: m_Name
       value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202117786900885069, guid: 37a3da7561aae644ca3b416b4cbdf109, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a3da7561aae644ca3b416b4cbdf109, type: 3}
