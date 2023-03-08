@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+
 
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
 {
+    public UnityEvent<int> onLifeValueChanged;
     private static GameManager _instance = null;
    
     public static GameManager Instance
@@ -31,6 +34,9 @@ public class GameManager : MonoBehaviour
 
             //if (_lives < 0)
             //gameover
+
+            
+            onLifeValueChanged?.Invoke(_lives);
 
             Debug.Log("Lives have been set to: " + _lives.ToString());
         }
@@ -99,4 +105,6 @@ public class GameManager : MonoBehaviour
     {
         currentSpawnPoint = spawnPoint;
     }
+
+    
 }
