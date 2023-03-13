@@ -43,6 +43,7 @@ public class enemyshoot : MonoBehaviour
             enemyProjectile curprojectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
             curprojectile.speed = projectilespeed;
         }
+
         onProjectileSpawned?.Invoke();
     }
 }

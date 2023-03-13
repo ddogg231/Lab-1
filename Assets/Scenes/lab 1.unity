@@ -352,7 +352,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 87278904}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5edd3000e00b7ea48acc58808d61d735, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 355169448}
   m_Layer: 0
   m_Name: Japanese Soldier idle 1_root
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aca10c6860a52e439415beacdf0589d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 3691773032133021105, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
+  player: {fileID: 871478704}
   minXClamp: 1.03
   maxXClamp: 85.3
   minYClamp: -0.42
@@ -1170,7 +1170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871478703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.1, y: 0.55, z: 0}
+  m_LocalPosition: {x: 2.61, y: 0.78, z: 0}
   m_LocalScale: {x: 5.7376, y: 5.7376, z: 5.7376}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1216,7 +1216,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.185}
@@ -1566,7 +1566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024045147}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SpawnPointRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1627,6 +1627,16 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1228986516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5202117786900885069, guid: 37a3da7561aae644ca3b416b4cbdf109, type: 3}
+  m_PrefabInstance: {fileID: 5202117787135126138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1228986518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5202117786900885059, guid: 37a3da7561aae644ca3b416b4cbdf109, type: 3}
+  m_PrefabInstance: {fileID: 5202117787135126138}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1279019864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,11 +2888,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595978046a7ecfc4884edb8dbe55420f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileFireRate: 6
+  isGroundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  maxHeath: 6
+  groundCheckRadius: 0.2
+  groundCheck: {fileID: 0}
+  isGrounded: 0
+  speed: 0
+  minDist: 1
+  points: []
+  nextID: 0
   range: 6
+  Target: {fileID: 1228986518}
+  player: {fileID: 1228986516}
+  projectileFireRate: 6
   minDistance: 5
-  Target: {fileID: 3691773032133021105, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
-  player: {fileID: 3691773032133021112, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
 --- !u!95 &1963606570
 Animator:
   serializedVersion: 5
@@ -2933,7 +2954,7 @@ MonoBehaviour:
   projectilespeed: 6
   spawnPointRight: {fileID: 1024045147}
   spawnPointLeft: {fileID: 1958364531}
-  projectilePrefab: {fileID: -2643406739973825047, guid: 9c40077a72b51cd4c81797d75083e962, type: 3}
+  projectilePrefab: {fileID: -8273843435918430679, guid: 9c40077a72b51cd4c81797d75083e962, type: 3}
 --- !u!212 &1963606572
 SpriteRenderer:
   m_ObjectHideFlags: 0

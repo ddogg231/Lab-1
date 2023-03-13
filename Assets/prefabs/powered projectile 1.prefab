@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 770374226007670937}
   - component: {fileID: 5147541087535448135}
   - component: {fileID: 2927451298685137399}
-  - component: {fileID: -2643406739973825047}
+  - component: {fileID: -8273843435918430679}
   m_Layer: 0
   m_Name: powered projectile 1
-  m_TagString: Untagged
+  m_TagString: enemy shots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.1}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &-2643406739973825047
+--- !u!114 &-8273843435918430679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class turret : MonoBehaviour
+public class turret : enemyBaseClass
 {
     public float projectileFireRate;
     float timeSinceLastFire;
     enemyshoot shootScript;
-    
-    Animator anim;
-    SpriteRenderer sr;
-    public float range;
     public float minDistance;
-    public Transform Target;
-    
-    public GameObject player;
     
 
-    void Start()
+
+    public override void Start()
     {
+        base.Start();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         shootScript = GetComponent<enemyshoot>();
@@ -31,7 +26,7 @@ public class turret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float range = GameObject.FindGameObjectWithTag("Player").transform.position.x - gameObject.transform.position.x;
+        float range = GameManager.Instance.transform.position.x - gameObject.transform.position.x;
         //Debug.Log(range);
         //Debug.Log("test");
 
@@ -43,7 +38,7 @@ public class turret : MonoBehaviour
                    {
                         anim.SetTrigger("fire");
                    }
-            if (GameObject.FindGameObjectWithTag("Player").transform.position.x > transform.position.x)
+            if (GameManager.Instance.transform.position.x > transform.position.x)
             {
                    
                 sr.flipX = true;
@@ -71,6 +66,8 @@ public class turret : MonoBehaviour
     {
         timeSinceLastFire = Time.time;
     }
+
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, range);

@@ -7,8 +7,10 @@ TagManager:
   - ground
   - Barrier
   - Enemy
-  - enemy shots
   - wall
+  - Playershots
+  - EnemyShots
+  - enemy shots
   layers:
   - Default
   - TransparentFX

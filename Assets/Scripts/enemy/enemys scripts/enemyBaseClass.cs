@@ -10,6 +10,8 @@ public class enemyBaseClass : MonoBehaviour
     protected Animator anim;
     public int maxHeath;
     protected int _heath;
+
+    //ground check and movement
     public float groundCheckRadius;
     public Transform groundCheck;
     public bool isGrounded;
@@ -17,22 +19,33 @@ public class enemyBaseClass : MonoBehaviour
     public float minDist = 1f;
     public List<Transform> points;
     public int nextID;
-    int idChangeValue = 1;
+   // int idChangeValue = 1;
+
+    //targetting /patrol / shooting
     public float range;
     public Transform Target;
     public GameObject player;
-
+    
+    
     // Start is called before the first frame update
     public virtual void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
         if (maxHeath <= 0)
             maxHeath = 5;
         heath = maxHeath;
-      //  Init();
-      //  MoveToNextPoint();
+        
+
+        
+
+        
+        //Init();
+       // MoveToNextPoint();
+
 
         if (groundCheckRadius <= 0)
         {
@@ -42,7 +55,7 @@ public class enemyBaseClass : MonoBehaviour
 
         if (!groundCheck)
         {
-            groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
+            groundCheck = GameObject.FindGameObjectWithTag("groundCheck").transform;
             Debug.Log("Ground Check not set, finding it manually!");
         }
     }
@@ -62,7 +75,7 @@ public class enemyBaseClass : MonoBehaviour
     }
 
 
-    private void Reset()
+    /*private void Reset()
     {
         Init();
     }
@@ -88,6 +101,7 @@ public class enemyBaseClass : MonoBehaviour
     private void Update()
     {
         MoveToNextPoint();
+        
     }
     void MoveToNextPoint()
     {
@@ -109,7 +123,7 @@ public class enemyBaseClass : MonoBehaviour
 
             nextID += idChangeValue;
         }
-    }
+    }*/
 
     public virtual void Death()
     {
