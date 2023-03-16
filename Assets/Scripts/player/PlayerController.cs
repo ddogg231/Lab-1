@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sr;
+    audiomanager asm;
 
     //movement var
     public float speed;
@@ -23,12 +24,15 @@ public class PlayerController : MonoBehaviour
     public float isShooting;
     public float isCrouch;
 
+    //soundclips
+    public AudioClip jumpclip;
+    public AudioClip deathclip;
 
 
 //Pickup updates
 
     public int maxLives = 5;
-    private int _lives;
+    private int _lives = 3;
 
     Coroutine jumpForceChange;
     Coroutine SpeedChange;
@@ -46,8 +50,8 @@ public class PlayerController : MonoBehaviour
             if (_lives > maxLives)
                 _lives = maxLives;
 
-            //if (_lives < 0)
-            // gameover we ded
+            if (_lives <= 0)
+                asm.Playoneshot(deathclip, false);
 
             Debug.Log("lives have been set to: " + _lives.ToString());
         }
@@ -58,6 +62,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        asm = GetComponent<audiomanager>();
 
         if (speed <= 0)
         {
@@ -116,6 +121,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
+            asm.Playoneshot(jumpclip, false);
         }
         //set player to crouch and stop movement if crouched
         /* i got the code to work with two inputs but i can figure out how to

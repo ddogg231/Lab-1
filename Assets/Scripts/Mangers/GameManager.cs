@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
 
         if (lives <= 0 && !gameOverLoaded)
         {
+            
             SceneManager.LoadScene(2);
             gameOverLoaded = true;
         }

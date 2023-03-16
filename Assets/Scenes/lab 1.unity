@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aca10c6860a52e439415beacdf0589d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 871478704}
+  player: {fileID: 3691773032133021105, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
   minXClamp: 1.03
   maxXClamp: 85.3
   minYClamp: -0.42
@@ -780,6 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d25db6b2c9e7d3e4c9815df9123afc0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioMixer: {fileID: 0}
   startButton: {fileID: 0}
   SettingsButton: {fileID: 0}
   QuitButton: {fileID: 129811376}
@@ -791,6 +792,7 @@ MonoBehaviour:
   volSliderText: {fileID: 0}
   livesText: {fileID: 1961005081}
   volSlider: {fileID: 0}
+  pausesound: {fileID: 0}
 --- !u!114 &385555124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,7 +1173,7 @@ Transform:
   m_GameObject: {fileID: 871478703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.61, y: 0.78, z: 0}
-  m_LocalScale: {x: 5.7376, y: 5.7376, z: 5.7376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1391685951}
@@ -1219,18 +1221,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.185}
+  m_Offset: {x: 0.011100769, y: 0.92601156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.29, y: 0.37}
+    oldSize: {x: 1.45, y: 1.85}
     newSize: {x: 0.29, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.29, y: 0.37}
+  m_Size: {x: 1.4334335, y: 1.8520231}
   m_EdgeRadius: 0
 --- !u!212 &871478707
 SpriteRenderer:
@@ -1884,6 +1886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419699856}
   - component: {fileID: 1419699855}
+  - component: {fileID: 1419699857}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -1920,6 +1923,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1419699857
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419699854}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -2509340266906830851, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
+  m_audioClip: {fileID: 8300000, guid: ec51fdaaf01ae74478c446a89e0fb835, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1449630552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +2968,7 @@ GameObject:
   - component: {fileID: 1963606571}
   - component: {fileID: 1963606570}
   - component: {fileID: 1963606569}
+  - component: {fileID: 1963606574}
   m_Layer: 0
   m_Name: Idle Ealge 1
   m_TagString: Enemy
@@ -3024,6 +3124,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1963606574
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963606568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.22, y: 0.42}
+    newSize: {x: 0.22, y: 0.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.22, y: 0.42}
+  m_EdgeRadius: 0
 --- !u!1 &1978439231
 GameObject:
   m_ObjectHideFlags: 0

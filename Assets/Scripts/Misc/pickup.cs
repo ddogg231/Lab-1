@@ -14,7 +14,7 @@ public class pickup : MonoBehaviour
     }
 
     public Pickuptype currentPickup;
-
+    public AudioClip picksound;
     public object PickupType { get; private set; }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,15 +22,16 @@ public class pickup : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController temp = collision.gameObject.GetComponent<PlayerController>();
+
             switch (currentPickup)
             {
                 case Pickuptype.powerup:
-                    temp.StartJumpForceChange();
+                    collision.gameObject.GetComponent<PlayerController>().StartJumpForceChange();
+                   // temp.StartJumpForceChange();
                     break;
 
                 case Pickuptype.life:
-                    temp.lives++;
-              
+                    GameManager.Instance.lives++;
                     break;
 
                 case Pickuptype.score:
@@ -39,6 +40,10 @@ public class pickup : MonoBehaviour
 
 
             }
+
+            if (picksound)
+                collision.gameObject.GetComponent<audiomanager>().Playoneshot(picksound, false);
+
             Destroy(gameObject);
         }
     }

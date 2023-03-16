@@ -38,11 +38,7 @@ public class enemyBaseClass : MonoBehaviour
         if (maxHeath <= 0)
             maxHeath = 5;
         heath = maxHeath;
-        
 
-        
-
-        
         //Init();
        // MoveToNextPoint();
 
@@ -61,7 +57,7 @@ public class enemyBaseClass : MonoBehaviour
     }
     public int heath   
     {
-        get => heath;
+        get => _heath;
         set
         {
             _heath = value;
@@ -69,8 +65,9 @@ public class enemyBaseClass : MonoBehaviour
             if (_heath > maxHeath)
                 _heath = maxHeath;
 
-            if (_heath <= 0)
+            if (_heath >= 0)
                 Death();
+            Debug.Log("lose 1 HP");
         }
     }
 
@@ -136,6 +133,7 @@ public class enemyBaseClass : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         heath -= damage;
+        Debug.Log("lose 1 HP");
     }
 
     public void death()
