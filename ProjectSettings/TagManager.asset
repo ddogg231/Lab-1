@@ -13,6 +13,7 @@ TagManager:
   - enemy shots
   - hitzone
   - winbox
+  - Level2
   layers:
   - Default
   - TransparentFX

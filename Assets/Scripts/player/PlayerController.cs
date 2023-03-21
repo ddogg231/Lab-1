@@ -242,10 +242,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("winbox"))
+        if (collision.gameObject.CompareTag("Level2"))
         {
            
             SceneManager.LoadScene(3);
+        }
+        if (collision.gameObject.CompareTag("winbox"))
+        {
+
+            SceneManager.LoadScene(4);
         }
     }
 }

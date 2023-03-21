@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxGroup: {fileID: 9121001371112444744, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
-  musicGroup: {fileID: 0}
+  musicGroup: {fileID: -2509340266906830851, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
 --- !u!82 &7696487119634183348
 AudioSource:
   m_ObjectHideFlags: 0

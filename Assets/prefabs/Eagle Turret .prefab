@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 7398446953068927122}
   - component: {fileID: 7398446953068927121}
   - component: {fileID: 7398446953068927126}
+  - component: {fileID: 1859334862}
+  - component: {fileID: 1859334861}
   m_Layer: 0
   m_Name: 'Eagle Turret '
   m_TagString: Enemy
@@ -135,19 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onProjectileSpawned:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   projectilespeed: 6
   spawnPointRight: {fileID: 7398446954008373987}
   spawnPointLeft: {fileID: 7398446953057394635}
@@ -195,11 +185,13 @@ MonoBehaviour:
   minDist: 1
   points: []
   nextID: 0
-  range: 6
+  range: 5
   Target: {fileID: 0}
   player: {fileID: 0}
-  projectileFireRate: 21
-  minDistance: 5
+  Deathsound: {fileID: 8300000, guid: 1995e9390599ea9499d15e069bc6aef2, type: 3}
+  projectileFireRate: 3
+  minDistance: 4
+  firesound: {fileID: 8300000, guid: 7fa39d241d8e8c243ba04ba76eaa6244, type: 3}
 --- !u!61 &7398446953068927126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -226,6 +218,116 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.68866575, y: 1.3849005}
   m_EdgeRadius: 0
+--- !u!82 &1859334862
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398446953068927120}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1859334861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398446953068927120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad572b03725deb3419544cd53988d8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxGroup: {fileID: 9121001371112444744, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
+  musicGroup: {fileID: -2509340266906830851, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
 --- !u!1 &7398446954008373986
 GameObject:
   m_ObjectHideFlags: 0

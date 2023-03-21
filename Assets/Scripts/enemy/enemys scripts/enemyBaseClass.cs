@@ -60,8 +60,7 @@ public class enemyBaseClass : MonoBehaviour
     public virtual void Death()
     {
         anim.SetTrigger("death");
-        if (Deathsound)
-            GameManager.Instance.playerInstance.GetComponent<audiomanager>().Playoneshot(Deathsound, false);
+  
         Destroy(gameObject);
     }
 
@@ -71,24 +70,17 @@ public class enemyBaseClass : MonoBehaviour
         if (heath <= 0)
         {
 
-            anim.SetTrigger("death");
+            //anim.SetTrigger("death");
 
-            Destroy(gameObject);
+            Destroy(gameObject); 
+           
+            if(Deathsound)
+              GameManager.Instance.playerInstance.GetComponent<audiomanager>().Playoneshot(Deathsound, false);
+
         }
-
+       
     }
 
-
-    
-
-    public void death()
-        {
-        anim.SetTrigger("death");
-        }
-        public void Destroyself()
-    {
-        Destroy(gameObject.transform.parent.gameObject.transform.parent);
-    }
 
     private void OnDrawGizmosSelected()
     {

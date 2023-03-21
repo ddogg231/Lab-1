@@ -146,7 +146,7 @@ public class UIManager : MonoBehaviour
             }
             else
             {
-                GameManager.Instance.playerInstance.GetComponent<audiomanager>().Playoneshot(pausesound, true);
+                
                 Time.timeScale = 1f;
             }
         }

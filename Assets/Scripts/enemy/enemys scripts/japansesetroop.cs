@@ -24,7 +24,7 @@ public class japansesetroop : enemyBaseClass
 
     private void Reset()
     {
-        //Init();
+        Init();
     }
     void Init()
     {
@@ -46,7 +46,7 @@ public class japansesetroop : enemyBaseClass
 
     private void Update()
     {
-       // MoveToNextPoint();
+       MoveToNextPoint();
         AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
         float range = GameManager.Instance.playerInstance.transform.position.x - gameObject.transform.position.x;
         
@@ -107,9 +107,15 @@ public class japansesetroop : enemyBaseClass
             sr.flipX = !sr.flipX;
         }    
 
-        if(collision.CompareTag("Player"))
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
         {
             anim.SetTrigger("Attack");
-        }    
+       GameManager.Instance.playerInstance.lives--;
+        }
+        
     }
 }
