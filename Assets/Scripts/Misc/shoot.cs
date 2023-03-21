@@ -13,7 +13,7 @@ public class shoot : MonoBehaviour
     public float projectilespeed;
     public Transform spawnPointRight;
     public Transform spawnPointLeft;
-
+    
     public projectile projectilePrefab;
 
     public AudioClip firesound;

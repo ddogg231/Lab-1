@@ -8,6 +8,8 @@ using UnityEngine.Events;
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
 {
+   
+
     public UnityEvent<int> onLifeValueChanged;
     private static GameManager _instance = null;
    
@@ -51,6 +53,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        
+        
         if (_instance)
         {
             Destroy(gameObject);
@@ -59,6 +63,7 @@ public class GameManager : MonoBehaviour
         _instance = this;
         DontDestroyOnLoad(gameObject);
     }
+ 
     void Start()
     {
 

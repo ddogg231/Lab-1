@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5202117786900885058}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,6 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf9ae758f921d84cb238eb3c7f3c75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onLifeValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
   maxLives: 5
   playerPrefab: {fileID: 3691773032133021109, guid: aa4f1a2c47cc3694ea935e83deed5436, type: 3}
   playerInstance: {fileID: 0}

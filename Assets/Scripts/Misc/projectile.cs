@@ -26,10 +26,14 @@ public class projectile : MonoBehaviour
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("wall"))
             Destroy(gameObject);
 
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.lives--;
+        }
 
         if (collision.gameObject.CompareTag("Enemy"))
              collision.gameObject.GetComponent<enemyBaseClass>().TakeDamage(1);
-            
+        Debug.Log("enemy hit");
         
         Destroy(gameObject);
     }

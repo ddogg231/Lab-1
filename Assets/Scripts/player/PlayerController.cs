@@ -222,4 +222,21 @@ public class PlayerController : MonoBehaviour
         speed /= 2;
         SpeedChange = null;
     }
+    
+
+    public void TakeDamage(int damage)
+    {
+        _lives -= damage;
+        if (_lives <= 0)
+        {
+            StartCoroutine(Die());
+        }
+    }
+
+    private IEnumerator Die()
+    {
+        anim.SetTrigger("Death");
+        yield return new WaitForSeconds(5.0f);
+        Destroy(gameObject);
+    }
 }

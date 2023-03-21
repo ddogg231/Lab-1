@@ -24,7 +24,7 @@ public class japansesetroop : enemyBaseClass
 
     private void Reset()
     {
-        Init();
+        //Init();
     }
     void Init()
     {
@@ -46,9 +46,26 @@ public class japansesetroop : enemyBaseClass
 
     private void Update()
     {
-        MoveToNextPoint();
+       // MoveToNextPoint();
         AnimatorClipInfo[] curClips = anim.GetCurrentAnimatorClipInfo(0);
-        if (curClips[0].clip.name == "running")
+        float range = GameManager.Instance.playerInstance.transform.position.x - gameObject.transform.position.x;
+        
+       /*if (range < minDistance && range > -minDistance)
+        {
+
+            if (GameManager.Instance.playerInstance.transform.position.x > transform.position.x)
+            {
+                rb.velocity = new Vector2(speed, rb.velocity.y);
+                sr.flipX = true;
+            }
+            else
+            {
+                sr.flipX = false;
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
+            }
+
+        }*/
+        /*if (curClips[0].clip.name == "running")
         {
             if (sr.flipX)
             {
@@ -58,11 +75,12 @@ public class japansesetroop : enemyBaseClass
             {
                 rb.velocity = new Vector2(speed, rb.velocity.y);
             }
-        }
+        }*/
     }
     void MoveToNextPoint()
     {
         Transform goalPoint = points[nextID];
+            
         if (goalPoint.transform.position.x > transform.position.x)
             transform.localScale = new Vector3(-1, 1, 1);
         else
@@ -73,7 +91,7 @@ public class japansesetroop : enemyBaseClass
         if (Vector2.Distance(transform.position, goalPoint.position) < 1f)
         {
             if (nextID == points.Count - 1)
-                idChangeValue = 1;
+                idChangeValue = -1;
 
             if (nextID == 0)
                 idChangeValue = 1;

@@ -9,8 +9,8 @@ public class turret : enemyBaseClass
     float timeSinceLastFire;
     enemyshoot shootScript;
     public float minDistance;
-    
-
+    audiomanager asm;
+    public AudioClip firesound;
 
     public override void Start()
     {
@@ -19,14 +19,14 @@ public class turret : enemyBaseClass
         sr = GetComponent<SpriteRenderer>();
         shootScript = GetComponent<enemyshoot>();
         shootScript.onProjectileSpawned.AddListener(UpdateTimeSinceLastFire);
-        
+        asm = GetComponent<audiomanager>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        float range = GameManager.Instance.transform.position.x - gameObject.transform.position.x;
+        float range = GameManager.Instance.playerInstance.transform.position.x - gameObject.transform.position.x;
         //Debug.Log(range);
         //Debug.Log("test");
 
@@ -36,23 +36,19 @@ public class turret : enemyBaseClass
            
              if (Time.time >= timeSinceLastFire + projectileFireRate)
                    {
-                        anim.SetTrigger("fire");
+                     anim.SetTrigger("fire");
+                        
                    }
-            if (GameManager.Instance.transform.position.x > transform.position.x)
-            {
-                   
+            if (GameManager.Instance.playerInstance.transform.position.x > transform.position.x)
+            {    
                 sr.flipX = true;
             }
             else
-             sr.flipX = false;
-            
-            
-            
+             sr.flipX = false;    
         }
-        
+       
 
-        
-     }
+    }
 
       
     private void OnDisable()
@@ -60,7 +56,7 @@ public class turret : enemyBaseClass
         shootScript.onProjectileSpawned.RemoveListener(UpdateTimeSinceLastFire);
     }
 
-
+    
 
     void UpdateTimeSinceLastFire()
     {

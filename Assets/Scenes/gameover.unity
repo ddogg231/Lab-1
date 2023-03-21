@@ -360,7 +360,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: restart
+  m_Text: 'Menu
+
+'
 --- !u!222 &1179795292
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -453,7 +455,7 @@ RectTransform:
   m_GameObject: {fileID: 1540412701}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99878746, y: 0.99878746, z: 0.99878746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 934107779}
@@ -517,7 +519,7 @@ GameObject:
   - component: {fileID: 1641841581}
   - component: {fileID: 1641841580}
   m_Layer: 5
-  m_Name: restart
+  m_Name: menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -744,7 +746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -810,13 +812,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d25db6b2c9e7d3e4c9815df9123afc0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioMixer: {fileID: 0}
+  AudioMixer: {fileID: 24100000, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
   startButton: {fileID: 1641841580}
   SettingsButton: {fileID: 0}
   QuitButton: {fileID: 0}
   ReturnToMainMenuButton: {fileID: 0}
   ReturnToGameButton: {fileID: 0}
-  mainMenu: {fileID: 0}
+  mainMenu: {fileID: 1641841578}
   SettingsMenu: {fileID: 0}
   pauseMenu: {fileID: 0}
   volSliderText: {fileID: 0}
