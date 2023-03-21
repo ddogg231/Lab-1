@@ -6,6 +6,7 @@ public class Level : MonoBehaviour
 {
     public int StartingLives;
     public Transform spawnPoint;
+    public AudioClip BGM;
     void Start()
     {
         GameManager.Instance.lives = StartingLives;

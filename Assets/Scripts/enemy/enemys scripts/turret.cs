@@ -9,7 +9,7 @@ public class turret : enemyBaseClass
     float timeSinceLastFire;
     enemyshoot shootScript;
     public float minDistance;
-    audiomanager asm;
+    
     public AudioClip firesound;
 
     public override void Start()

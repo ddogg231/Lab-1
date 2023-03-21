@@ -25,7 +25,7 @@ public class enemyBaseClass : MonoBehaviour
     public float range;
     public Transform Target;
     public GameObject player;
-    audiomanager asm;
+    public audiomanager asm;
 
     public AudioClip Deathsound;
 

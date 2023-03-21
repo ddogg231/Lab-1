@@ -2047,6 +2047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartingLives: 3
   spawnPoint: {fileID: 1880559304}
+  BGM: {fileID: 8300000, guid: 40af89fc06aec4146a182bef7c91e8df, type: 3}
 --- !u!4 &1419699856
 Transform:
   m_ObjectHideFlags: 0
