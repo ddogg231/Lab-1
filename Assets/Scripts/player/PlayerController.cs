@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
@@ -162,7 +162,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
             rb.gravityScale = 1;
 
-            
+        
 
     }
 
@@ -238,5 +238,14 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Death");
         yield return new WaitForSeconds(5.0f);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("winbox"))
+        {
+           
+            SceneManager.LoadScene(3);
+        }
     }
 }
