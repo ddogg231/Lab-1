@@ -299,7 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26417494}
   - component: {fileID: 26417495}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: power ups (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205619629}
   - component: {fileID: 205619630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power ups (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff1efa8ec2170446b62a9d3033025f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoint: []
+  spawnpoint:
+  - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &364062481
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,15 +959,15 @@ Canvas:
   m_GameObject: {fileID: 385555122}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 364062483}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1248,7 +1251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812353306}
   - component: {fileID: 812353307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power ups (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,8 +1287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnpoint:
   - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &865106619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897138998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power ups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,18 +2073,18 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419699854}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2509340266906830851, guid: d50cc2700be76bb45a19debabaecab7c, type: 2}
   m_audioClip: {fileID: 8300000, guid: ec51fdaaf01ae74478c446a89e0fb835, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 39
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2169,7 +2172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441543749}
   - component: {fileID: 1441543750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power ups (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2206,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff1efa8ec2170446b62a9d3033025f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoint: []
+  spawnpoint:
+  - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &1449630552
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,7 +2547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -519.9043, y: 130.74863}
+  m_AnchoredPosition: {x: -450.1, y: 130.74863}
   m_SizeDelta: {x: 82.4263, y: 37.2514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1625847136
@@ -3274,7 +3280,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -456.6, y: 130.75}
+  m_AnchoredPosition: {x: -394.8, y: 131.5}
   m_SizeDelta: {x: 60.5567, y: 33.627}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1978439231
@@ -3725,11 +3731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398446953068927125, guid: 64a92f35893b59543a7ba5700bb08cc6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.79
+      value: 8.85
       objectReference: {fileID: 0}
     - target: {fileID: 7398446953068927125, guid: 64a92f35893b59543a7ba5700bb08cc6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.66
+      value: -2.63
       objectReference: {fileID: 0}
     - target: {fileID: 7398446953068927125, guid: 64a92f35893b59543a7ba5700bb08cc6, type: 3}
       propertyPath: m_LocalPosition.z

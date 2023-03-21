@@ -2235,7 +2235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648047383}
   - component: {fileID: 648047384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power ups (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff1efa8ec2170446b62a9d3033025f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoint: []
+  spawnpoint:
+  - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &749085260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,7 +2818,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff1efa8ec2170446b62a9d3033025f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoint: []
+  spawnpoint:
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &1033303449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3925,8 +3931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnpoint:
   - {fileID: 1612599071368977565, guid: fcbc348ee4003114ca8a7a1f0409fc0b, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 975949763248435729, guid: 7063a3056b22c6c4b9c871b22a89a83a, type: 3}
+  - {fileID: 2186999219630812344, guid: 012a888d51c966549810e854a93ea381, type: 3}
 --- !u!1 &1588535440
 GameObject:
   m_ObjectHideFlags: 0
