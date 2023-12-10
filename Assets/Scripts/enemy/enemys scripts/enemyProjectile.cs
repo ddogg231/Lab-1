@@ -18,7 +18,7 @@ public class enemyProjectile : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         Destroy(gameObject, lifetime);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter3D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("wall") || (collision.gameObject.CompareTag("Player")))
             Destroy(gameObject);
